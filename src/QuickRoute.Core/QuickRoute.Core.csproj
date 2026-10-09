@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>QuickRoute.BusinessEntities</RootNamespace>
+    <AssemblyName>QuickRoute.Core</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickRoute.Resources\QuickRoute.Resources.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="QuickRoute.Tests" />
+  </ItemGroup>
+</Project>

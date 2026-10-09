@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Tiedosto</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Uusi</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Avaa</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Tallenna</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Tallenna &amp;nimellä</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>&amp;Lataa reittejä</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Vie</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Kuva</value>
+  </data>
+  <data name="Menu_FileExportKmz" xml:space="preserve">
+    <value>KM&amp;Z...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Reittidata</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>Ulo&amp;s</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Muokkaa</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>Kum&amp;oa</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>Uu&amp;delleen</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Muuta &amp;lähtöaikaa</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Näytä</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>Koko &amp;ruutu</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Näytä &amp;oikea paneeli</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Näytä &amp;alapaneeli</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>T&amp;yökalut</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Asetukset</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Kieli</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Help..</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>A&amp;bout</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Uusi</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Avaa</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Kumoa</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Tee uudelleen</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Osoitin</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Muokkaa reittiä</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Lisää väliaika</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Leikkaa reitti</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Zoomaa sisään</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Zoomaa ulos</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Koko ruutu</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Näytä oikea paneeli</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Näytä alapaneeli</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Värikoodaa reittiviiva...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Värialueen aloitusarvo</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Värialueen lopetusarvo</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Aseta värialue</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Aseta värialue automaattisesti</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Reittiviivan läpinäkyvyys</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Reittiviivan leveys</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Näytä reittiviivan reunat</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Reittiviivan reunojen leveys</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Reittiviivan reunojen väri</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Rastiympyrän säde otto- ja jättöaikoja varten</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Väliajat</value>
+  </data>
+</root>

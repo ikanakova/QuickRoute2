@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Nouveau...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Ouvrir...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Enregistrer</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Enregistrer &amp;sous...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>I&amp;mporter Traces...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Exporter</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Image...</value>
+  </data>
+  <data name="Menu_FileExportGpx" xml:space="preserve">
+    <value>&amp;GPX...</value>
+  </data>
+  <data name="Menu_FileExportKmz" xml:space="preserve">
+    <value>&amp;KMZ...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Données de la trace...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>Qui&amp;tter</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Edition</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Annuler</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Rétablir</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Changer l'heure de &amp;départ</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Vue</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>&amp;Plein écran</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Afficher le panneau d&amp;roit</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Afficher le panneau de &amp;dessous</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>&amp;Outils</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Ajouter les temps intermédiaires depuis &amp;WinSplits</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Options</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Langue...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Aide</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Aide...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;A propos...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Répéter</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Ajuster la trace</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Ajouter temps intermédiaires</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Couper la trace</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Zoom +</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Zoom -</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Plein écran</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Afficher le panneau droit</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Afficher le panneau inférieur</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Dégrader la trace par...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Valeur initiale de l'échelle de couleur</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Valeur finale de l'échelle de couleur</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Déterminer l'intervalle de l'échelle de couleur</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Auto-ajuster l'intervalle de l'échelle de couleur</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Transparence de la trace</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Largeur de la trace</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Afficher les bords de la trace</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Largeur des bords de la trace</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Couleur des bords de la trace</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Diamètre du cercle pour les temps d'approches/sortie</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Temps intermédiaires</value>
+  </data>
+</root>

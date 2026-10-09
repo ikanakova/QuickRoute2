@@ -1,0 +1,138 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:QuickRoute.App.Controls"
+        x:Class="QuickRoute.App.MainWindow"
+        Title="QuickRoute2"
+        Icon="/Assets/QuickRoute.ico"
+        Width="1200" Height="800"
+        WindowStartupLocation="CenterScreen"
+        DragDrop.AllowDrop="True">
+  <DockPanel>
+    <Menu x:Name="MainMenu" DockPanel.Dock="Top">
+      <MenuItem x:Name="MenuFile">
+        <MenuItem x:Name="MenuFileNew" InputGesture="Ctrl+N" />
+        <MenuItem x:Name="MenuFileOpen" InputGesture="Ctrl+O" />
+        <MenuItem x:Name="MenuFileRecent" />
+        <MenuItem x:Name="MenuFileSave" InputGesture="Ctrl+S" />
+        <MenuItem x:Name="MenuFileSaveAs" />
+        <Separator />
+        <MenuItem x:Name="MenuFileImportSessions" />
+        <MenuItem x:Name="MenuFileExport">
+          <MenuItem x:Name="MenuFileExportImage" />
+          <MenuItem x:Name="MenuFileExportGpx" />
+          <MenuItem x:Name="MenuFileExportKmz" />
+          <MenuItem x:Name="MenuFileExportRouteData" />
+        </MenuItem>
+        <Separator />
+        <MenuItem x:Name="MenuFileExit" />
+      </MenuItem>
+      <MenuItem x:Name="MenuEdit">
+        <MenuItem x:Name="MenuEditUndo" InputGesture="Ctrl+Z" />
+        <MenuItem x:Name="MenuEditRedo" InputGesture="Ctrl+Y" />
+        <Separator />
+        <MenuItem x:Name="MenuEditChangeStartTime" />
+      </MenuItem>
+      <MenuItem x:Name="MenuView">
+        <MenuItem x:Name="MenuViewFullScreen" ToggleType="CheckBox" InputGesture="F11" />
+        <MenuItem x:Name="MenuViewRightPanel" ToggleType="CheckBox" InputGesture="Ctrl+Shift+R" />
+        <MenuItem x:Name="MenuViewBottomPanel" ToggleType="CheckBox" InputGesture="Ctrl+Shift+B" />
+      </MenuItem>
+      <MenuItem x:Name="MenuImage">
+        <MenuItem x:Name="MenuImageRotateClockwise" />
+        <MenuItem x:Name="MenuImageRotateCounterclockwise" />
+      </MenuItem>
+      <MenuItem x:Name="MenuTools">
+        <MenuItem x:Name="MenuToolsAddLaps" />
+        <MenuItem x:Name="MenuToolsOpenExportedKmz" />
+      </MenuItem>
+      <MenuItem x:Name="MenuSettings">
+        <MenuItem x:Name="MenuSettingsLanguage" />
+      </MenuItem>
+      <MenuItem x:Name="MenuHelp">
+        <MenuItem x:Name="MenuHelpHelp" InputGesture="F1" />
+        <MenuItem x:Name="MenuHelpAbout" />
+      </MenuItem>
+    </Menu>
+
+    <Border DockPanel.Dock="Top" BorderBrush="#D0D0D0" BorderThickness="0,0,0,1">
+      <WrapPanel x:Name="MainToolbar" Margin="2">
+        <Button x:Name="ToolNew" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/New.png" /></Button>
+        <Button x:Name="ToolOpen" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Open.png" /></Button>
+        <Button x:Name="ToolSave" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Save.png" /></Button>
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <Button x:Name="ToolUndo" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Undo.png" /></Button>
+        <Button x:Name="ToolRedo" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Redo.png" /></Button>
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <ComboBox x:Name="ZoomBox" Width="90" IsEditable="False" VerticalAlignment="Center" />
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <ToggleButton x:Name="ToolPointer" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Pointer.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolAdjustRoute" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/AdjustRoute.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolLap" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Lap.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolCut" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Cut.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolZoomIn" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/ZoomIn.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolZoomOut" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/ZoomOut.png" /></ToggleButton>
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <ToggleButton x:Name="ToolFullScreen" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/FullScreen.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolRightPanel" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/RightPanelVisible.png" /></ToggleButton>
+        <ToggleButton x:Name="ToolBottomPanel" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/BottomPanelVisible.png" /></ToggleButton>
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <Button x:Name="ToolHelp" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/Help.png" /></Button>
+      </WrapPanel>
+    </Border>
+
+    <Border DockPanel.Dock="Top" BorderBrush="#D0D0D0" BorderThickness="0,0,0,1">
+      <WrapPanel x:Name="RouteAppearanceToolbar" Margin="2">
+        <ComboBox x:Name="ColorCodingAttributeBox" Width="140" VerticalAlignment="Center" />
+        <TextBox x:Name="ColorRangeStartBox" Width="70" Margin="4,0,0,0" VerticalAlignment="Center" />
+        <Border x:Name="ColorRangePreviewBorder" Width="160" Height="20" Margin="4,0" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+          <Image x:Name="ColorRangePreview" Stretch="Fill" />
+        </Border>
+        <TextBox x:Name="ColorRangeEndBox" Width="70" VerticalAlignment="Center" />
+        <Button x:Name="ColorRangeIntervalButton" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/colorRangeIntervalButton.png" /></Button>
+        <ToggleButton x:Name="AutoAdjustColorRangeButton" Classes="tool"><Image Classes="tool" Source="/Assets/Toolbar/AutoAdjustColorRangeInterval.png" /></ToggleButton>
+        <Slider x:Name="TransparencySlider" Width="100" Minimum="-10" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Margin="6,0" VerticalAlignment="Center" />
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <Image Classes="tool" Source="/Assets/Toolbar/routeLineWidth.png" Margin="4,0" VerticalAlignment="Center" />
+        <NumericUpDown x:Name="LineWidthBox" Width="120" Minimum="0" Maximum="100" Increment="0.5" FormatString="0.0" VerticalAlignment="Center" />
+        <ToggleButton x:Name="MaskVisibleButton" Classes="tool" Margin="4,0,0,0"><Image Classes="tool" Source="/Assets/Toolbar/routeLineMaskVisible.png" /></ToggleButton>
+        <NumericUpDown x:Name="MaskWidthBox" Width="120" Minimum="0" Maximum="100" Increment="0.5" FormatString="0.0" VerticalAlignment="Center" />
+        <Button x:Name="MaskColorButton" Classes="tool">
+          <Border x:Name="MaskColorSwatch" Width="16" Height="16" BorderBrush="Gray" BorderThickness="1" />
+        </Button>
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <ComboBox x:Name="SecondaryColorCodingAttributeBox" Width="190" VerticalAlignment="Center" />
+        <Separator Width="1" Margin="4,2" Background="#C0C0C0" />
+        <Image Classes="tool" Source="/Assets/Toolbar/smoothingIntervalLength.png" Margin="4,0" VerticalAlignment="Center" />
+        <TextBox x:Name="SmoothingIntervalBox" Width="60" VerticalAlignment="Center" />
+        <Image Classes="tool" Source="/Assets/Toolbar/circleTimeRadius.png" Margin="6,0,4,0" VerticalAlignment="Center" />
+        <TextBox x:Name="CircleTimeRadiusBox" Width="50" VerticalAlignment="Center" />
+      </WrapPanel>
+    </Border>
+
+    <Border DockPanel.Dock="Bottom" BorderBrush="#D0D0D0" BorderThickness="0,1,0,0">
+      <TextBlock x:Name="StatusText" Margin="6,3" TextTrimming="CharacterEllipsis" />
+    </Border>
+
+    <Grid x:Name="ContentGrid" ColumnDefinitions="*,Auto,300" RowDefinitions="*,Auto,180">
+      <Grid Grid.Row="0" Grid.Column="0" RowDefinitions="*,Auto">
+        <ScrollViewer x:Name="MapScrollViewer" Grid.Row="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="#F0F0F0">
+          <controls:MapCanvas x:Name="Canvas" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        </ScrollViewer>
+        <Border Grid.Row="1" BorderBrush="#D0D0D0" BorderThickness="0,1,0,0">
+          <WrapPanel x:Name="MomentaneousInfoPanel" Margin="4,2" />
+        </Border>
+      </Grid>
+      <GridSplitter x:Name="RightSplitter" Grid.Row="0" Grid.Column="1" Width="5" ResizeDirection="Columns" />
+      <Grid x:Name="RightPanel" Grid.Row="0" Grid.Column="2" RowDefinitions="Auto,Auto,*">
+        <ListBox x:Name="SessionList" Grid.Row="0" MaxHeight="120" />
+        <TextBlock x:Name="LapsLabel" Grid.Row="1" Margin="4,4,4,2" FontWeight="SemiBold" />
+        <DataGrid x:Name="LapGrid" Grid.Row="2" IsReadOnly="True" AutoGenerateColumns="False" SelectionMode="Single"
+                  CanUserReorderColumns="False" CanUserResizeColumns="True" CanUserSortColumns="True" GridLinesVisibility="Horizontal" />
+      </Grid>
+      <GridSplitter x:Name="BottomSplitter" Grid.Row="1" Grid.ColumnSpan="3" Height="5" ResizeDirection="Rows" />
+      <Border x:Name="BottomPanel" Grid.Row="2" Grid.ColumnSpan="3" Background="White">
+        <controls:LineGraphControl x:Name="LineGraphView" />
+      </Border>
+    </Grid>
+  </DockPanel>
+</Window>

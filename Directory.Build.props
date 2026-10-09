@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <Version>1.0.0</Version>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <Product>QuickRoute2</Product>
+    <Description>QuickRoute2, a cross-platform GPS route analysis application for orienteering based on QuickRoute by Mats Troeng and Jörgen Ohlin.</Description>
+    <Authors>ikanakova</Authors>
+    <Company>ikanakova</Company>
+    <Copyright>Copyright © Mats Troeng, Jörgen Ohlin and QuickRoute contributors. QuickRoute2 maintained by ikanakova.</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <SatelliteResourceLanguages>cs;da;de;fi;fr;it;lt;no;ru;sv</SatelliteResourceLanguages>
+  </PropertyGroup>
+</Project>

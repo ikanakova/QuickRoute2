@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageReference Include="Avalonia.Headless.XUnit" Version="11.3.22" />
+    <PackageReference Include="Avalonia.Skia" Version="11.3.22" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\QuickRoute.App\QuickRoute.App.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\QuickRoute.Tests\TestData\synthetic-rawdata.qrt" Link="TestData\synthetic-rawdata.qrt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

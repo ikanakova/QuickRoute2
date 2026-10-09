@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>QuickRoute.BusinessEntities</RootNamespace>
+    <AssemblyName>QuickRoute.Import</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickRoute.Core\QuickRoute.Core.csproj" />
+  </ItemGroup>
+</Project>

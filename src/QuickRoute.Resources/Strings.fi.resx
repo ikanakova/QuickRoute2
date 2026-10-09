@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Altitude" xml:space="preserve">
+    <value>Korkeus</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Matka</value>
+  </data>
+  <data name="DonationUrl" xml:space="preserve">
+    <value>http://www.matstroeng.se/quickroute/en/donation.php</value>
+  </data>
+  <data name="EastAbbreviated" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Kulunut aika</value>
+  </data>
+  <data name="ExportImageTitle" xml:space="preserve">
+    <value>Vie kuva</value>
+  </data>
+  <data name="ExportGPXTitle" xml:space="preserve">
+    <value>Vie reitti GPX:nä</value>
+  </data>
+  <data name="HeartRate" xml:space="preserve">
+    <value>Syke</value>
+  </data>
+  <data name="HelpUrl" xml:space="preserve">
+    <value>http://www.matstroeng.se/quickroute/en/help</value>
+  </data>
+  <data name="Histogram" xml:space="preserve">
+    <value>Pylväskaavio</value>
+  </data>
+  <data name="InvalidMapImage" xml:space="preserve">
+    <value>Ei-toimiva karttakuva</value>
+  </data>
+  <data name="InvalidRoute" xml:space="preserve">
+    <value>Ei-toimiva reitti</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Sijainti</value>
+  </data>
+  <data name="MapImageFileDoesNotExist" xml:space="preserve">
+    <value>Karttakuvaa ei löydy.</value>
+  </data>
+  <data name="NewGradient" xml:space="preserve">
+    <value>Uusi liukuväri</value>
+  </data>
+  <data name="NoGPSDevicesConnected" xml:space="preserve">
+    <value>(GPS-laitetta ei ole kytketty)</value>
+  </data>
+  <data name="NoGPSDevicesConnectedMessageBox" xml:space="preserve">
+    <value>GPS-laitteita ei ole kytketty</value>
+  </data>
+  <data name="NorthAbbreviated" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="OpenQuickRouteFileTitle" xml:space="preserve">
+    <value>Avaa QuickRoute2 -tiedosto</value>
+  </data>
+  <data name="Pace" xml:space="preserve">
+    <value>Vauhti</value>
+  </data>
+  <data name="PromptSaveChanges" xml:space="preserve">
+    <value>Tallenna muutokset tiedostoon {0}?</value>
+  </data>
+  <data name="RouteFileDoesNotExist" xml:space="preserve">
+    <value>Reittitiedostoa ei löydy.</value>
+  </data>
+  <data name="SaveAsTitle" xml:space="preserve">
+    <value>Tallenna QuickRoute2 -tiedosto</value>
+  </data>
+  <data name="SelectMapImageFile" xml:space="preserve">
+    <value>Valitse karttatiedosto</value>
+  </data>
+  <data name="SelectRouteFile" xml:space="preserve">
+    <value>Valitse rettitiedosto</value>
+  </data>
+  <data name="SouthAbbreviated" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Nopeus</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Aika</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Yhteensä</value>
+  </data>
+  <data name="UICultureChangeTakesEffectAtNextRestart" xml:space="preserve">
+    <value>Kielimuutos tulee voimaan, kun käynnistät QuickRouten seuraavan kerran.</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Nimetön</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versio {0}</value>
+  </data>
+  <data name="WestAbbreviated" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Kopioi leikepöydälle</value>
+  </data>
+  <data name="NewMap" xml:space="preserve">
+    <value>Uusi kartta</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Suuntapoikkeama</value>
+  </data>
+  <data name="SizeInPixels" xml:space="preserve">
+    <value>{0} x {1} pikseliä</value>
+  </data>
+  <data name="ExportKMZTitle" xml:space="preserve">
+    <value>Vie KMZ-muodossa</value>
+  </data>
+  <data name="ExportRouteDataTitle" xml:space="preserve">
+    <value>Vie reittidata</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Kartta</value>
+  </data>
+  <data name="QuickRouteSession" xml:space="preserve">
+    <value>QuickRoute -sessio {0}</value>
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Reitti</value>
+  </data>
+  <data name="RouteSegmentX" xml:space="preserve">
+    <value>Reittiosuus {0}</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>Uusinta</value>
+  </data>
+  <data name="Infinite" xml:space="preserve">
+    <value>ääretön</value>
+  </data>
+  <data name="QuickRouteKmlData" xml:space="preserve">
+    <value>QuickRoute -data</value>
+  </data>
+  <data name="ReplayPosition" xml:space="preserve">
+    <value>Paikka</value>
+  </data>
+  <data name="ReplayTail" xml:space="preserve">
+    <value>Häntä</value>
+  </data>
+  <data name="Routes" xml:space="preserve">
+    <value>Reitit</value>
+  </data>
+  <data name="AddFiles" xml:space="preserve">
+    <value>Lisää tiedostoja</value>
+  </data>
+  <data name="UnexpectedExceptionMessage" xml:space="preserve">
+    <value>Odottamaton virhe tapahtui.</value>
+  </data>
+  <data name="UntitledX" xml:space="preserve">
+    <value>Nimetön {0}</value>
+  </data>
+  <data name="OpenInGoogleEarth" xml:space="preserve">
+    <value>Avaa Google Earthissa</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>QuickRoute -versio {0} on saatavilla.</value>
+  </data>
+  <data name="NewVersionFeatures" xml:space="preserve">
+    <value>Uuden version toimintoja:</value>
+  </data>
+  <data name="OpenMultipleFilesInGoogleEarth" xml:space="preserve">
+    <value>Avaa useampi QuickRoute -tiedosto Google Earthissa</value>
+  </data>
+  <data name="LapX" xml:space="preserve">
+    <value>Kierros {0}</value>
+  </data>
+  <data name="MultipleFileExporterNoValidFiles" xml:space="preserve">
+    <value>Et ole määritellyt valideja QuickRoute -tiedostoja.</value>
+  </data>
+  <data name="MultipleFileExporterSomeInvalidFiles" xml:space="preserve">
+    <value>Seuraavissa tiedostoissa ei ole QuickRoute -dataa eikä niitä voida sisällyttää:
+
+{0}</value>
+  </data>
+  <data name="UnrecognizedFileFormat" xml:space="preserve">
+    <value>Tiedoston {0} formaattia ei tunnistettu.</value>
+  </data>
+  <data name="SelectLapInfoColumns" xml:space="preserve">
+    <value>Valitse sarakkeet</value>
+  </data>
+  <data name="SmoothingIntervalForX" xml:space="preserve">
+    <value>Tasausintervalli tiedostolle {0}</value>
+  </data>
+  <data name="SelectMomentaneousInfoProperties" xml:space="preserve">
+    <value>Valitse tieto</value>
+  </data>
+  <data name="DeleteLapX" xml:space="preserve">
+    <value>Poista kierros {0}</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Tulosta...</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_AdjustRoute" xml:space="preserve">
+    <value>Klikkaa kohtaa reitillä ja vedä se oikeaan kohtaan kartalla. Vähintään kaksi toisistaan etäällä olevaa pistettä pitää määritellä. Voit käyttää myös useampaa pistettä. Pidä CTRL pohjassa ja klikkaa määriteltyä pistettä poistaaksesi sen. Siirtääksesi karttaa tartu ja raahaa hiiren oikealla napilla. Kun olet lopettanut määrittelyn, valitse osoitintyökalu nähdäksesi värikoodatun reittiviivan.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_Cut" xml:space="preserve">
+    <value>Klikkaa kohtaa reitillä poistaaksesi aiemman tai myöhemmän osan reitistä. Siirtääksesi karttaa tartu ja raahaa hiiren oikealla napilla. </value>
+  </data>
+  <data name="DynamicHelp_MouseTool_Lap" xml:space="preserve">
+    <value>Klikkaa kohtaa reitillä lisätäksei väliajan. Pidä CTRL pohjassa ja klikkaa määriteltyä pistettä poistaaksesi sen. Pidä SHIFT pohjassa ja klikkaa reittiä lisätäksesi väliajan tiettyyn aikaan. Siirtääksesi karttaa tartu ja raahaa hiiren oikealla napilla. </value>
+  </data>
+  <data name="DynamicHelp_MouseTool_Pointer" xml:space="preserve">
+    <value>Vie hiiren osoitin reitin päälle nähdäksesi ajan, matkan, vauhdin jne.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_ZoomIn" xml:space="preserve">
+    <value>Valitse suurennettava alue kartalta.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_ZoomOut" xml:space="preserve">
+    <value>Klikkaa kohtaa, johon haluat pienennettävän kartan keskikohdan.</value>
+  </data>
+  <data name="Error_ExportImage" xml:space="preserve">
+    <value>Virhe kuvatiedoston viennissä</value>
+  </data>
+  <data name="Error_ExportRoute" xml:space="preserve">
+    <value>Virhe reittitiedoston viennissä</value>
+  </data>
+  <data name="Error_NewDocument" xml:space="preserve">
+    <value>Virhe luodessa uutta dokumenttia</value>
+  </data>
+  <data name="Error_OpenDocument" xml:space="preserve">
+    <value>Virhe avattaessa dokumenttia</value>
+  </data>
+  <data name="Error_SaveDocument" xml:space="preserve">
+    <value>Virhe tallennettaessa dokumenttia</value>
+  </data>
+  <data name="RouteImportError_NoWaypoints" xml:space="preserve">
+    <value>Tiedostossa ei ole reittipisteitä (waypoints)</value>
+  </data>
+  <data name="RouteImportError_NoWaypointTimes" xml:space="preserve">
+    <value>Tiedostossa ei ole reittipisteitä (waypoints) näillä ajoilla</value>
+  </data>
+  <data name="Unit_Altitude" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="FileFilter_AllFiles" xml:space="preserve">
+    <value>Kaikki tiedostot (*.*)|*.*</value>
+  </data>
+  <data name="FileFilter_FrwdTxtFiles" xml:space="preserve">
+    <value>FRWD-tekstitiedostot (*.txt)|*.txt</value>
+  </data>
+  <data name="FileFilter_ImageFiles" xml:space="preserve">
+    <value>Kuvatiedostot  (*.jpg; *.jpeg; *.gif; *.png; *.tif; *.tiff)|*.jpg;*.jpeg;*.gif;*.png;*.tif;*.tiff</value>
+  </data>
+  <data name="FileFilter_QuickRoute10Files" xml:space="preserve">
+    <value>QuickRoute 1.0 xml-tiedostot (*.xml)|*.xml</value>
+  </data>
+  <data name="FileFilter_QuickRouteFiles" xml:space="preserve">
+    <value>QuickRoute -tiedostot (*.qrt)|*.qrt</value>
+  </data>
+  <data name="FileFilter_TcxFiles" xml:space="preserve">
+    <value>Garmin Training Center -historiatiedostot (*.tcx)|*.tcx</value>
+  </data>
+  <data name="FileFilter_NavilockActFiles" xml:space="preserve">
+    <value>Navilock ACT-tiedostot (*.act)|*.act</value>
+  </data>
+  <data name="Error_MapPublishCommunication" xml:space="preserve">
+    <value>Virhe kartta-arkiston palvelinkommunikaatiossa</value>
+  </data>
+  <data name="MapPublish_FailureTitle" xml:space="preserve">
+    <value>Tätä karttaa ei ole julkaistu</value>
+  </data>
+  <data name="MapPublish_Success" xml:space="preserve">
+    <value>Tämä kartta julkaistiin {0}.</value>
+  </data>
+  <data name="MapPublish_SuccessTitle" xml:space="preserve">
+    <value>Tämä kartta on julkaistu</value>
+  </data>
+  <data name="Error_GoogleEarthNotInstalledMessage" xml:space="preserve">
+    <value>Google Earth ei näytä olevan asennettuna tähän tietokoneeseen. Lataa se osoitteesta: earth.google.com</value>
+  </data>
+  <data name="Error_GoogleEarthNotInstalledTitle" xml:space="preserve">
+    <value>Google Earthia ei ole asennettu</value>
+  </data>
+  <data name="FileFilter_KmzFiles" xml:space="preserve">
+    <value>KMZ-tiedostot (*.kmz)|*.kmz</value>
+  </data>
+  <data name="FileFilter_RouteDataFiles" xml:space="preserve">
+    <value>Reittidatatiedostot (*.xml)|*.xml</value>
+  </data>
+  <data name="FileFilter_JpegFilesExportedFromQuickRoute" xml:space="preserve">
+    <value>Jpeg -tiedostot QuickRoutesta (*.jpg; *.jpeg)|*.jpg;*.jpeg</value>
+  </data>
+  <data name="FileFilter_AllQuickRouteFiles" xml:space="preserve">
+    <value>Kaikki QuickRoute -tiedostot (*.qrt; *.xml; *.jpg; *.jpeg)|*.qrt;*.xml;*.jpg;*.jpeg</value>
+  </data>
+  <data name="Error_InvalidQuickRouteFile" xml:space="preserve">
+    <value>Tämä ei ole toimiva QuickRoute -tiedosto</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Altitude" xml:space="preserve">
+    <value>Korkeus merenpinnasta: {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AltitudeDifference" xml:space="preserve">
+    <value>Korkeusero (väli): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AltitudeDifferenceFromStart" xml:space="preserve">
+    <value>Korkeusero (yhteensä): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Ascent" xml:space="preserve">
+    <value>Noususumma (väli): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AscentFromStart" xml:space="preserve">
+    <value>Noususumma (yhteensä): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageDirectionDeviationToNextLap" xml:space="preserve">
+    <value>Suuntapoikkeaman keskiarvo (väli): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageDirectionDeviationToNextLapFromStart" xml:space="preserve">
+    <value>Suuntapoikkeaman keskiarvo (yhteensä): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageHeartRate" xml:space="preserve">
+    <value>Keskisyke (väli): {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageHeartRateFromStart" xml:space="preserve">
+    <value>Keskisyke (yhteensä): {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageInclination" xml:space="preserve">
+    <value>Keskikaltevuus (väli): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageInclinationFromStart" xml:space="preserve">
+    <value>Keskikaltevuus (yhteensä): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRoutePace" xml:space="preserve">
+    <value>Keskivauhti (väli): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRoutePaceFromStart" xml:space="preserve">
+    <value>Keskivauhti (yhteensä): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRouteSpeed" xml:space="preserve">
+    <value>Keskinopeus (väli): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRouteSpeedFromStart" xml:space="preserve">
+    <value>Keskinopeus (yhteensä): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLinePace" xml:space="preserve">
+    <value>Keskivauhti suoraa viivaa (väli): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLinePaceFromStart" xml:space="preserve">
+    <value>Keskivauhti suoraa viivaa (yhteensä): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLineSpeed" xml:space="preserve">
+    <value>Keskinopeus suoraa viivaa (väli): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLineSpeedFromStart" xml:space="preserve">
+    <value>Keskinopeus suoraa viivaa (yhteensä): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Descent" xml:space="preserve">
+    <value>Laskusumma (väli): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_DescentFromStart" xml:space="preserve">
+    <value>Laskusumma (yhteensä): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Direction" xml:space="preserve">
+    <value>Suunta: {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_DirectionDeviationToNextLap" xml:space="preserve">
+    <value>Suuntapoikkeama: {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ElapsedTime" xml:space="preserve">
+    <value>Aika (väli): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ElapsedTimeFromStart" xml:space="preserve">
+    <value>Aika (yhteensä): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_HeartRate" xml:space="preserve">
+    <value>Syke: {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Inclination" xml:space="preserve">
+    <value>Kaltevuus: {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_LapNumber" xml:space="preserve">
+    <value>Välin numero: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Location" xml:space="preserve">
+    <value>Sijainti: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxHeartRate" xml:space="preserve">
+    <value>Maksimisyke (väli): {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxHeartRateFromStart" xml:space="preserve">
+    <value>Maksimisyke (yhteensä): {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MinHeartRate" xml:space="preserve">
+    <value>Minimisyke (väli): {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MinHeartRateFromStart" xml:space="preserve">
+    <value>Minimisyke (yhteensä): {0} bpm</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Pace" xml:space="preserve">
+    <value>Vauhti: {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteDistance" xml:space="preserve">
+    <value>Reitin pituus (väli): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteDistanceFromStart" xml:space="preserve">
+    <value>Reitin pituus (yhteensä): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteToStraightLine" xml:space="preserve">
+    <value>Reitin ja suoran viivan ero (väli): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteToStraightLineFromStart" xml:space="preserve">
+    <value>Reitin ja suoran viivan ero (yhteensä): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Speed" xml:space="preserve">
+    <value>Nopeus: {0} km/h</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_StraightLineDistance" xml:space="preserve">
+    <value>Suoran viivan pituus (väli): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_StraightLineDistanceFromStart" xml:space="preserve">
+    <value>Suoran viivan pituus (yhteensä): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Time" xml:space="preserve">
+    <value>Kellonaika: {0}</value>
+  </data>
+  <data name="RoutePropertyName_Altitude" xml:space="preserve">
+    <value>Korkeus</value>
+  </data>
+  <data name="RoutePropertyName_AltitudeDifference" xml:space="preserve">
+    <value>Korkeusero (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AltitudeDifferenceFromStart" xml:space="preserve">
+    <value>Korkeusero (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_Ascent" xml:space="preserve">
+    <value>Noususumma (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AscentFromStart" xml:space="preserve">
+    <value>Noususumma (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageDirectionDeviationToNextLap" xml:space="preserve">
+    <value>Suuntapoikkeaman keskiarvo (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageDirectionDeviationToNextLapFromStart" xml:space="preserve">
+    <value>Suuntapoikkeaman keskiarvo (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageHeartRate" xml:space="preserve">
+    <value>Keskisyke (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageHeartRateFromStart" xml:space="preserve">
+    <value>Keskisyke (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageInclination" xml:space="preserve">
+    <value>Keskikaltevuus (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageInclinationFromStart" xml:space="preserve">
+    <value>Keskikaltevuus (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRoutePace" xml:space="preserve">
+    <value>Keskivauhti (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRoutePaceFromStart" xml:space="preserve">
+    <value>Keskivauhti (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRouteSpeed" xml:space="preserve">
+    <value>Keskinopeus (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRouteSpeedFromStart" xml:space="preserve">
+    <value>Keskinopeus (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLinePace" xml:space="preserve">
+    <value>Keskivauhti suoraviivaa (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLinePaceFromStart" xml:space="preserve">
+    <value>Keskivauhti suoraviivaa (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLineSpeed" xml:space="preserve">
+    <value>Keskinopeus suoraa viivaa (väli)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLineSpeedFromStart" xml:space="preserve">
+    <value>Keskinopeus suoraa viivaa (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_Descent" xml:space="preserve">
+    <value>Laskusumma (väli)</value>
+  </data>
+  <data name="RoutePropertyName_DescentFromStart" xml:space="preserve">
+    <value>Laskusumma (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_Direction" xml:space="preserve">
+    <value>Suunta</value>
+  </data>
+  <data name="RoutePropertyName_DirectionDeviationToNextLap" xml:space="preserve">
+    <value>Suuntapoikkeama</value>
+  </data>
+  <data name="RoutePropertyName_ElapsedTime" xml:space="preserve">
+    <value>Aika (väli)</value>
+  </data>
+  <data name="RoutePropertyName_ElapsedTimeFromStart" xml:space="preserve">
+    <value>Aika (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_HeartRate" xml:space="preserve">
+    <value>Syke</value>
+  </data>
+  <data name="RoutePropertyName_Inclination" xml:space="preserve">
+    <value>Kaltevuus</value>
+  </data>
+  <data name="RoutePropertyName_LapNumber" xml:space="preserve">
+    <value>Väli</value>
+  </data>
+  <data name="RoutePropertyName_Location" xml:space="preserve">
+    <value>Sijainti</value>
+  </data>
+  <data name="RoutePropertyName_MaxHeartRate" xml:space="preserve">
+    <value>Maksimisyke (väli)</value>
+  </data>
+  <data name="RoutePropertyName_MaxHeartRateFromStart" xml:space="preserve">
+    <value>Maksimisyke (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_MinHeartRate" xml:space="preserve">
+    <value>Minimisyke (väli)</value>
+  </data>
+  <data name="RoutePropertyName_MinHeartRateFromStart" xml:space="preserve">
+    <value>Minimisyke (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_Pace" xml:space="preserve">
+    <value>Vauhti</value>
+  </data>
+  <data name="RoutePropertyName_RouteDistance" xml:space="preserve">
+    <value>Reitin pituus (väli)</value>
+  </data>
+  <data name="RoutePropertyName_RouteDistanceFromStart" xml:space="preserve">
+    <value>Reitin pituus (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_RouteToStraightLine" xml:space="preserve">
+    <value>Reitin ja suoran viivan ero (väli)</value>
+  </data>
+  <data name="RoutePropertyName_RouteToStraightLineFromStart" xml:space="preserve">
+    <value>Reitin ja suoran viivan ero (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_Speed" xml:space="preserve">
+    <value>Nopeus</value>
+  </data>
+  <data name="RoutePropertyName_StraightLineDistance" xml:space="preserve">
+    <value>Suoran viivan pituus (väli)</value>
+  </data>
+  <data name="RoutePropertyName_StraightLineDistanceFromStart" xml:space="preserve">
+    <value>Suoran viivan pituus (yhteensä)</value>
+  </data>
+  <data name="RoutePropertyName_Time" xml:space="preserve">
+    <value>Kellonaika</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ImageX" xml:space="preserve">
+    <value>Karttakuvan X-sijainti: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ImageY" xml:space="preserve">
+    <value>Karttakuvan Y-sijainti: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Latitude" xml:space="preserve">
+    <value>Leveysaste: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Longitude" xml:space="preserve">
+    <value>Pituusaste: {0}</value>
+  </data>
+  <data name="RoutePropertyName_ImageX" xml:space="preserve">
+    <value>Karttakuvan X-sijainti</value>
+  </data>
+  <data name="RoutePropertyName_ImageY" xml:space="preserve">
+    <value>Karttakuvan Y-sijainti</value>
+  </data>
+  <data name="RoutePropertyName_Latitude" xml:space="preserve">
+    <value>Leveysaste</value>
+  </data>
+  <data name="RoutePropertyName_Longitude" xml:space="preserve">
+    <value>Pituusaste</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeBackward" xml:space="preserve">
+    <value>Ympyräaika (taaksepäin)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeBackward" xml:space="preserve">
+    <value>Ympyräaika (taaksepäin): {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeForward" xml:space="preserve">
+    <value>Ympyräaika (eteenpäin)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeForward" xml:space="preserve">
+    <value>Ympyräaika (eteenpäin): {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtStartOfSpan" xml:space="preserve">
+    <value>Ympyräaika välin alussa (edelliseltä rastilta lähtö)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtStartOfSpan" xml:space="preserve">
+    <value>Ympyräaika välin alussa (edelliseltä rastilta lähtö): {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtEndOfSpan" xml:space="preserve">
+    <value>Ympyräaika välin lopussa (tälle rastille tulo)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtEndOfSpan" xml:space="preserve">
+    <value>Ympyräaika välin lopussa (tälle rastille tulo): {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtStartOfSpanFromStart" xml:space="preserve">
+    <value>Ympyräaikojen summa välien aluissa (rastilta lähtö)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtStartOfSpanFromStart" xml:space="preserve">
+    <value>Ympyräaikojen summa välien aluissa (rastilta lähtö): {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtEndOfSpanFromStart" xml:space="preserve">
+    <value>Ympyräaikojen summa välien lopuissa (rastille tulo)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtEndOfSpanFromStart" xml:space="preserve">
+    <value>Ympyräaikojen summa välien lopuissa (rastille tulo): {0}</value>
+  </data>
+  <data name="ImageSize" xml:space="preserve">
+    <value>Kuvan koko</value>
+  </data>
+  <data name="Pixels" xml:space="preserve">
+    <value>pikseliä</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Muuta</value>
+  </data>
+</root>

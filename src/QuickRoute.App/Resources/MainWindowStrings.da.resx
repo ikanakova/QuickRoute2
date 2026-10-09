@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Fil</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Ny...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Åbn...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Gem</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Gem &amp;som...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>&amp;Importer ruter...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Eksporter</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Billede...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Rute data...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>&amp;Afslut</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>R&amp;ediger</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>F&amp;ortryd</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Gentag</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Ændre &amp;start tid...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Vis</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>Fuld sk&amp;ærm</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Vis &amp;højre panel</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Vis b&amp;und panel</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>Værkt&amp;øjer</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Tilføj mellemtider fra en ekstern &amp;datakilde...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Indstillinger</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Sprog...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Hjælp</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Hjælp...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;Om...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Åbn</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Gentag</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Pil</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Tilpas ruten</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Tilføj mellemtid</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Beskær ruten</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Zoom ind</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Zoom ud</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Fuld skærm</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Hvis panel til højre</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Vis panel i bunden</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Hjælp</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Farvekodning af...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Startværdi for farveskalaen</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Slutværdi for farveskalaen</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Angiv interval for farveskalaen</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Automatisk justering af farveskalaens interval</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Rutelinjens gennemsigtighed</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Rutelinjens bredde</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Vis rutelinjens kanter</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Bredden af rutelinjens kanter</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Rutelinjens farve</value>
+  </data>
+  <data name="Tip_SecondaryColorCoding" xml:space="preserve">
+    <value>Farvekodning af sekundær rutelinje</value>
+  </data>
+  <data name="Tip_SmoothingInterval" xml:space="preserve">
+    <value>Udjævningsinterval længde</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Cirkelradius for kontroltagningstider</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Mellemtider</value>
+  </data>
+</root>

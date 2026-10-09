@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>Созд&amp;ать...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Открыть...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Со&amp;хнить как...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>И&amp;мпорт путей...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Экспорт...</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Изображение...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Путь...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>В&amp;ыход</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Редактировать</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Отменить</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Повторить</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Изменить &amp;время старта...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Вид</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>На &amp;весь экран</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Показать &amp;правую панель</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Показать &amp;нижнюю панель</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>&amp;Инструменты</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Импорт данных из &amp;WinSplits...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Настройки</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Язык...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Помощь</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Справка...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;О программе...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="Tip_Zoom" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Указатель</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Привязка</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Добавление отсечки</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Обрезать путь</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>На весь экран</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Показать правую панель</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Показать нижнюю панель</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Цвет пути соответствует...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Начальное значение цветового интервала</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Конечное значение цветового интервала</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Задать диапазон цветового интервала</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Автоподпор диапазона цветового интервала</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Прозрачность линии пути</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Ширина линии пути</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Показывать границу линии пути</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Ширина границы линии пути</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Цвет границы линии пути</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Радиус зоны выхода и ухода</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Перегоны</value>
+  </data>
+</root>

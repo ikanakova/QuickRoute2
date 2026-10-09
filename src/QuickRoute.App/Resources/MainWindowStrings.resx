@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;New...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Save &amp;as...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>I&amp;mport routes...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Image...</value>
+  </data>
+  <data name="Menu_FileExportGpx" xml:space="preserve">
+    <value>&amp;GPX...</value>
+  </data>
+  <data name="Menu_FileExportKmz" xml:space="preserve">
+    <value>&amp;KMZ...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Route data...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Change &amp;start time...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>&amp;Full screen</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Show &amp;right panel</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Show &amp;bottom panel</value>
+  </data>
+  <data name="Menu_Image" xml:space="preserve">
+    <value>&amp;Image</value>
+  </data>
+  <data name="Menu_ImageRotateClockwise" xml:space="preserve">
+    <value>Rotate 90° clockwise</value>
+  </data>
+  <data name="Menu_ImageRotateCounterclockwise" xml:space="preserve">
+    <value>Rotate 90° counterclockwise</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Add split times from &amp;external data source...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Settings</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Language...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Help...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Tip_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Pointer</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Adjust route</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Add split time</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Crop route</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Full screen</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Show right panel</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Show bottom panel</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Color code the route by...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Starting value of color range</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Ending value of color range</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Set the color range interval</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Auto adjust the color range interval</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Route line transparency</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Route line width</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Show route line edges</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Route line edge width</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Route line edge color</value>
+  </data>
+  <data name="Tip_SecondaryColorCoding" xml:space="preserve">
+    <value>Secondary route color coding</value>
+  </data>
+  <data name="Tip_SmoothingInterval" xml:space="preserve">
+    <value>Smoothing interval length</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Circle radius for approaching and leaving times</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Split times</value>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Button_Browse" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="Menu_FileRecent" xml:space="preserve">
+    <value>Recent &amp;documents</value>
+  </data>
+  <data name="Recent_None" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="Menu_ToolsOpenExportedKmz" xml:space="preserve">
+    <value>Open in &amp;map application (KMZ)...</value>
+  </data>
+  <data name="FileType_Qrtx" xml:space="preserve">
+    <value>QuickRoute2 document (*.qrtx)</value>
+  </data>
+  <data name="FileType_AllQuickRoute" xml:space="preserve">
+    <value>All supported documents</value>
+  </data>
+  <data name="FileType_Images" xml:space="preserve">
+    <value>Image files</value>
+  </data>
+  <data name="FileType_AllRoutes" xml:space="preserve">
+    <value>All route files</value>
+  </data>
+  <data name="Legacy_SavedAsNewFormat" xml:space="preserve">
+    <value>This document was created by QuickRoute. It will be saved in the QuickRoute2 document format (*.qrtx); the original file is not changed.</value>
+  </data>
+  <data name="NewDocument_Title" xml:space="preserve">
+    <value>New document</value>
+  </data>
+  <data name="NewDocument_Map" xml:space="preserve">
+    <value>Map image:</value>
+  </data>
+  <data name="NewDocument_Route" xml:space="preserve">
+    <value>Route file:</value>
+  </data>
+  <data name="NewDocument_Person" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="NewDocument_BlankMapHint" xml:space="preserve">
+    <value>Leave the map empty to use a blank map.</value>
+  </data>
+  <data name="NewDocument_SelectMap" xml:space="preserve">
+    <value>Select map image</value>
+  </data>
+  <data name="NewDocument_SelectRoute" xml:space="preserve">
+    <value>Select route file</value>
+  </data>
+  <data name="ImportChoice_Title" xml:space="preserve">
+    <value>Select activity</value>
+  </data>
+  <data name="ImportChoice_Label" xml:space="preserve">
+    <value>Activity:</value>
+  </data>
+  <data name="ExportImage_Size" xml:space="preserve">
+    <value>Size (%):</value>
+  </data>
+  <data name="ExportImage_Quality" xml:space="preserve">
+    <value>JPEG quality (%):</value>
+  </data>
+  <data name="ExportImage_Pixels" xml:space="preserve">
+    <value>{0} × {1} pixels</value>
+  </data>
+  <data name="Kmz_Map" xml:space="preserve">
+    <value>Map:</value>
+  </data>
+  <data name="Kmz_MapNone" xml:space="preserve">
+    <value>No map</value>
+  </data>
+  <data name="Kmz_MapOnly" xml:space="preserve">
+    <value>Map only</value>
+  </data>
+  <data name="Kmz_MapAndRoute" xml:space="preserve">
+    <value>Map and route</value>
+  </data>
+  <data name="Kmz_Route" xml:space="preserve">
+    <value>Route lines:</value>
+  </data>
+  <data name="Kmz_RouteNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Kmz_RouteMonochrome" xml:space="preserve">
+    <value>Single color</value>
+  </data>
+  <data name="Kmz_RouteColorCoded" xml:space="preserve">
+    <value>Color coded</value>
+  </data>
+  <data name="Kmz_Adapt" xml:space="preserve">
+    <value>Adapt route lines to the map image</value>
+  </data>
+  <data name="RouteData_SamplingInterval" xml:space="preserve">
+    <value>Sampling interval (s):</value>
+  </data>
+  <data name="Time_Label" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="Time_Invalid" xml:space="preserve">
+    <value>The time is not valid.</value>
+  </data>
+  <data name="Cut_Title" xml:space="preserve">
+    <value>Crop route</value>
+  </data>
+  <data name="Cut_Before" xml:space="preserve">
+    <value>Remove the part of the route before this time</value>
+  </data>
+  <data name="Cut_After" xml:space="preserve">
+    <value>Remove the part of the route after this time</value>
+  </data>
+  <data name="ExternalLaps_Source" xml:space="preserve">
+    <value>Data source:</value>
+  </data>
+  <data name="ExternalLaps_From" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="ExternalLaps_To" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="ExternalLaps_Region" xml:space="preserve">
+    <value>Region / country:</value>
+  </data>
+  <data name="ExternalLaps_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ExternalLaps_Event" xml:space="preserve">
+    <value>Event:</value>
+  </data>
+  <data name="ExternalLaps_Class" xml:space="preserve">
+    <value>Class:</value>
+  </data>
+  <data name="ExternalLaps_Runner" xml:space="preserve">
+    <value>Runner:</value>
+  </data>
+  <data name="ExternalLaps_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ExternalLaps_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Language_Title" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Language_Label" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="Language_Default" xml:space="preserve">
+    <value>System default</value>
+  </data>
+  <data name="Language_Restart" xml:space="preserve">
+    <value>The new language will be used after QuickRoute2 is restarted.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>About QuickRoute2</value>
+  </data>
+  <data name="About_BasedOn" xml:space="preserve">
+    <value>Based on QuickRoute by Mats Troeng and Jörgen Ohlin</value>
+  </data>
+  <data name="About_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Error_MapImage" xml:space="preserve">
+    <value>The map image could not be read.</value>
+  </data>
+  <data name="Error_ExternalLaps" xml:space="preserve">
+    <value>Split times could not be retrieved.</value>
+  </data>
+  <data name="Error_OpenFile" xml:space="preserve">
+    <value>The file could not be opened.</value>
+  </data>
+  <data name="Info_NotAQuickRouteImage" xml:space="preserve">
+    <value>The image does not contain QuickRoute data.</value>
+  </data>
+</root>

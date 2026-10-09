@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Fil</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Ny...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Åpne...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Lagre</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Lagre s&amp;om</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>&amp;Importer ruter...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Eksporter</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Bilde (kart)...</value>
+  </data>
+  <data name="Menu_FileExportGpx" xml:space="preserve">
+    <value>&amp;GPX...</value>
+  </data>
+  <data name="Menu_FileExportKmz" xml:space="preserve">
+    <value>&amp;KMZ...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Rute-data...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>Avslu&amp;tt</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Endre</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Angre</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Gjør om</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Endre &amp;starttid...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Vis</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>&amp;Fullskjermsvisning</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Vis &amp;høyre sidepanel</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Vis &amp;bunnpanel</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>&amp;Verktøy</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Legg til mellomtider fra &amp;WinSplints...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Innstillinger</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Språk...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Hjelp</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Hjelp</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;Om...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Åpne</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Angre</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Gjør om</value>
+  </data>
+  <data name="Tip_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Peker</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Juster rute</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Legg til mellomtid</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Beskjær rute</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Zoom inn</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Zoom ut</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Fullskjermsvisning</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Vis høyre sidepanel</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Vis bunnpanel</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Hjelp</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Angi fargekoder for ruten...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Startverdi for fargeskalaen</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Sluttverdi for fargeskalaen</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Angi intervall for fargeskalaen</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Automatisk justering av fargeskalaens intervallverdier</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Rutestrekens gjennomsiktighet</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Rutestrekens bredde</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Vis linje langs kanten av rutestreken</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Rutestrekens kanlinjebredde</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Rutestrekens kantlinjefarge</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Radius på sirkel for tid inn og ut av poster</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Mellomtider</value>
+  </data>
+</root>

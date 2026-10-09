@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Arkiv</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Ny...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Öppna...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Spara</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Spara so&amp;m...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>I&amp;mportera rutter...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Exportera</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Bild...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Ruttdata...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>&amp;Avsluta</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Redigera</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Ångra</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Gör om</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>Ändra &amp;starttid...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Visa</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>&amp;Helskärmsläge</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>Visa &amp;högerpanelen</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>Visa &amp;bottenpanelen</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>Verkt&amp;yg</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Lägg till mellantider från &amp;extern datakälla...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>&amp;Inställningar</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Språk...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Hjälp</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Hjälp...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;Om...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Öppna</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Gör om</value>
+  </data>
+  <data name="Tip_Zoom" xml:space="preserve">
+    <value>Zooma</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Pekare</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Passa in rutten</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Lägg till mellantid</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Klipp rutten</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Zooma in</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Zooma ut</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Helskärmsläge</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Visa högerpanelen</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Visa bottenpanelen</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Attribut för ruttlinjens färgkodning</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Färgskalans startvärde</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Färgskalans slutvärde</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Ställ in färgskalans värdeintervall</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Automatisk inställning av färgskalans värdeintervall</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Ruttlinjens transparens</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Ruttlinjens tjocklek</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Visa mask kring ruttlinjen</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Ruttlinjemaskens tjocklek</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Ruttlinjemaskens färg</value>
+  </data>
+  <data name="Tip_SecondaryColorCoding" xml:space="preserve">
+    <value>Attribut för ruttlinjens sekundära färgkodning</value>
+  </data>
+  <data name="Tip_SmoothingInterval" xml:space="preserve">
+    <value>Utjämningsintervallets längd</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Radie för kontrolltagningstid och kontrollämningstid</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Mellantider</value>
+  </data>
+</root>

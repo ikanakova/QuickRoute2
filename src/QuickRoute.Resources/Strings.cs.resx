@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <data name="Altitude" xml:space="preserve">
+    <value>Nadmořská výška</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Vzdálenost</value>
+  </data>
+  <data name="DonationUrl" xml:space="preserve">
+    <value>http://www.matstroeng.se/quickroute/en/donation.php</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_AdjustRoute" xml:space="preserve">
+    <value>Jednoduchým kliknutím a přetažením úplného začátku nebo konce otočíte a změníte velikost celé trasy včetně kotev. Dvojklikem a přetažením krajního bodu upravíte jen krajní úsek. Přetažením bodu uvnitř upravíte sousední úseky. Kotvu odstraníte kliknutím s Ctrl. Mapu posunete pravým tlačítkem. Po dokončení vyberte Ukazatel.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_Cut" xml:space="preserve">
+    <value>Kliknutím na trasu odstraníte její předchozí nebo následující část. Mapu posunete tažením pravým tlačítkem.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_Lap" xml:space="preserve">
+    <value>Kliknutím na trasu přidáte mezičas. Kliknutím s klávesou Ctrl jej odstraníte. Kliknutím s klávesou Shift zadáte mezičas v konkrétním čase. Mapu posunete tažením pravým tlačítkem.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_Pointer" xml:space="preserve">
+    <value>Po najetí ukazatelem na trasu se zobrazí čas, vzdálenost, tempo a další údaje.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_ZoomIn" xml:space="preserve">
+    <value>Vyberte oblast mapy, kterou chcete přiblížit.</value>
+  </data>
+  <data name="DynamicHelp_MouseTool_ZoomOut" xml:space="preserve">
+    <value>Klikněte na střed oblasti, kterou chcete oddálit.</value>
+  </data>
+  <data name="EastAbbreviated" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Uplynulý čas</value>
+  </data>
+  <data name="Error_ExportImage" xml:space="preserve">
+    <value>Chyba při exportu obrázku</value>
+  </data>
+  <data name="Error_ExportRoute" xml:space="preserve">
+    <value>Chyba při exportu trasy</value>
+  </data>
+  <data name="Error_NewDocument" xml:space="preserve">
+    <value>Chyba při vytváření nového dokumentu</value>
+  </data>
+  <data name="Error_OpenDocument" xml:space="preserve">
+    <value>Chyba při otevírání dokumentu</value>
+  </data>
+  <data name="Error_SaveDocument" xml:space="preserve">
+    <value>Chyba při ukládání dokumentu</value>
+  </data>
+  <data name="ExportImageTitle" xml:space="preserve">
+    <value>Exportovat obrázek</value>
+  </data>
+  <data name="ExportGPXTitle" xml:space="preserve">
+    <value>Exportovat trasu do GPX</value>
+  </data>
+  <data name="HeartRate" xml:space="preserve">
+    <value>Tepová frekvence</value>
+  </data>
+  <data name="HelpUrl" xml:space="preserve">
+    <value>http://www.matstroeng.se/quickroute/en/help</value>
+  </data>
+  <data name="Histogram" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="InvalidMapImage" xml:space="preserve">
+    <value>Neplatný obrázek mapy</value>
+  </data>
+  <data name="InvalidRoute" xml:space="preserve">
+    <value>Neplatná trasa</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Poloha</value>
+  </data>
+  <data name="MapImageFileDoesNotExist" xml:space="preserve">
+    <value>Soubor s obrázkem mapy neexistuje.</value>
+  </data>
+  <data name="NewGradient" xml:space="preserve">
+    <value>Nový barevný přechod</value>
+  </data>
+  <data name="NoGPSDevicesConnected" xml:space="preserve">
+    <value>[Žádné připojené GPS zařízení]</value>
+  </data>
+  <data name="NoGPSDevicesConnectedMessageBox" xml:space="preserve">
+    <value>Není připojeno žádné GPS zařízení.</value>
+  </data>
+  <data name="NorthAbbreviated" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="OpenQuickRouteFileTitle" xml:space="preserve">
+    <value>Otevřít soubor QuickRoute2</value>
+  </data>
+  <data name="Pace" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="PromptSaveChanges" xml:space="preserve">
+    <value>Uložit změny v souboru {0}?</value>
+  </data>
+  <data name="QuickRoute" xml:space="preserve">
+    <value>QuickRoute2</value>
+  </data>
+  <data name="RouteFileDoesNotExist" xml:space="preserve">
+    <value>Soubor trasy neexistuje.</value>
+  </data>
+  <data name="RouteImportError_NoWaypoints" xml:space="preserve">
+    <value>Soubor neobsahuje žádné body trasy.</value>
+  </data>
+  <data name="RouteImportError_NoWaypointTimes" xml:space="preserve">
+    <value>Soubor neobsahuje žádné body trasy s časem.</value>
+  </data>
+  <data name="SaveAsTitle" xml:space="preserve">
+    <value>Uložit soubor QuickRoute2 jako</value>
+  </data>
+  <data name="SelectMapImageFile" xml:space="preserve">
+    <value>Vybrat obrázek mapy</value>
+  </data>
+  <data name="SelectRouteFile" xml:space="preserve">
+    <value>Vybrat soubor trasy</value>
+  </data>
+  <data name="SouthAbbreviated" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Rychlost</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Celkem</value>
+  </data>
+  <data name="UICultureChangeTakesEffectAtNextRestart" xml:space="preserve">
+    <value>Změna jazyka se projeví po příštím spuštění QuickRoute.</value>
+  </data>
+  <data name="Unit_Altitude" xml:space="preserve">
+    <value>m n. m.</value>
+  </data>
+  <data name="Unit_Distance" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="Unit_HeartRate" xml:space="preserve">
+    <value>tep/min</value>
+  </data>
+  <data name="Unit_Pace" xml:space="preserve">
+    <value>min/km</value>
+  </data>
+  <data name="Unit_Speed" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Bez názvu</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Verze {0}</value>
+  </data>
+  <data name="WebsiteShortUrl" xml:space="preserve">
+    <value>matstroeng.se/quickroute/en</value>
+  </data>
+  <data name="WebsiteUrl" xml:space="preserve">
+    <value>http://www.matstroeng.se/quickroute/en</value>
+  </data>
+  <data name="WestAbbreviated" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="FileFilter_AllFiles" xml:space="preserve">
+    <value>Všechny soubory (*.*)|*.*</value>
+  </data>
+  <data name="FileFilter_FrwdTxtFiles" xml:space="preserve">
+    <value>Textové soubory FRWD (*.txt)|*.txt</value>
+  </data>
+  <data name="FileFilter_ImageFiles" xml:space="preserve">
+    <value>Obrázky (*.jpg; *.jpeg; *.gif; *.png; *.tif; *.tiff)|*.jpg;*.jpeg;*.gif;*.png;*.tif;*.tiff</value>
+  </data>
+  <data name="FileFilter_JpegFiles" xml:space="preserve">
+    <value>JPEG (*.jpg; *.jpeg)|*.jpg;*.jpeg</value>
+  </data>
+  <data name="FileFilter_PngFiles" xml:space="preserve">
+    <value>PNG (*.png)|*.png</value>
+  </data>
+  <data name="FileFilter_QuickRoute10Files" xml:space="preserve">
+    <value>Soubory XML QuickRoute 1.0 (*.xml)|*.xml</value>
+  </data>
+  <data name="FileFilter_QuickRouteFiles" xml:space="preserve">
+    <value>Soubory QuickRoute (*.qrt)|*.qrt</value>
+  </data>
+  <data name="FileFilter_TcxFiles" xml:space="preserve">
+    <value>Záznamy Garmin Training Center (*.tcx)|*.tcx</value>
+  </data>
+  <data name="FileFilter_TiffFiles" xml:space="preserve">
+    <value>TIFF (*.tiff; *.tif)|*.tiff;*.tif</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Kopírovat do schránky</value>
+  </data>
+  <data name="FileFilter_NavilockActFiles" xml:space="preserve">
+    <value>Soubory Navilock ACT (*.act)|*.act</value>
+  </data>
+  <data name="NewMap" xml:space="preserve">
+    <value>Nová mapa</value>
+  </data>
+  <data name="Error_MapPublishCommunication" xml:space="preserve">
+    <value>Chyba komunikace se serverem pro publikování map</value>
+  </data>
+  <data name="MapPublish_FailureTitle" xml:space="preserve">
+    <value>Mapa nebyla publikována</value>
+  </data>
+  <data name="MapPublish_Success" xml:space="preserve">
+    <value>Mapa byla publikována na adrese {0}.</value>
+  </data>
+  <data name="MapPublish_SuccessTitle" xml:space="preserve">
+    <value>Mapa byla publikována</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Odchylka směru</value>
+  </data>
+  <data name="Unit_Direction" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="SizeInPixels" xml:space="preserve">
+    <value>{0} × {1} pixelů</value>
+  </data>
+  <data name="DomaWebsiteUrl" xml:space="preserve">
+    <value>http://www.matstroeng.se/doma</value>
+  </data>
+  <data name="Error_GoogleEarthNotInstalledMessage" xml:space="preserve">
+    <value>Aplikace Google Earth není v tomto počítači nainstalovaná. Stáhněte ji ze stránky earth.google.com.</value>
+  </data>
+  <data name="Error_GoogleEarthNotInstalledTitle" xml:space="preserve">
+    <value>Google Earth není nainstalovaný</value>
+  </data>
+  <data name="ExportKMZTitle" xml:space="preserve">
+    <value>Exportovat do KMZ</value>
+  </data>
+  <data name="ExportRouteDataTitle" xml:space="preserve">
+    <value>Exportovat údaje trasy</value>
+  </data>
+  <data name="FileFilter_GpxFiles" xml:space="preserve">
+    <value>GPX (*.gpx)|*.gpx</value>
+  </data>
+  <data name="FileFilter_RouteDataFiles" xml:space="preserve">
+    <value>Údaje trasy (*.xml)|*.xml</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="QuickRouteSession" xml:space="preserve">
+    <value>Záznam QuickRoute ze dne {0}</value>
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Trasa</value>
+  </data>
+  <data name="RouteSegmentX" xml:space="preserve">
+    <value>Část trasy {0}</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>Přehrávání</value>
+  </data>
+  <data name="Infinite" xml:space="preserve">
+    <value>nekonečně</value>
+  </data>
+  <data name="QuickRouteKmlData" xml:space="preserve">
+    <value>Údaje QuickRoute</value>
+  </data>
+  <data name="ReplayPosition" xml:space="preserve">
+    <value>Poloha</value>
+  </data>
+  <data name="ReplayTail" xml:space="preserve">
+    <value>Stopa</value>
+  </data>
+  <data name="Routes" xml:space="preserve">
+    <value>Trasy</value>
+  </data>
+  <data name="AddFiles" xml:space="preserve">
+    <value>Přidat soubory</value>
+  </data>
+  <data name="FileFilter_JpegFilesExportedFromQuickRoute" xml:space="preserve">
+    <value>JPEG exportované z QuickRoute (*.jpg; *.jpeg)|*.jpg;*.jpeg</value>
+  </data>
+  <data name="UnexpectedExceptionMessage" xml:space="preserve">
+    <value>Došlo k neočekávané chybě.</value>
+  </data>
+  <data name="UntitledX" xml:space="preserve">
+    <value>Bez názvu {0}</value>
+  </data>
+  <data name="OpenInGoogleEarth" xml:space="preserve">
+    <value>Otevřít v Google Earth</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Je dostupná verze QuickRoute {0}.</value>
+  </data>
+  <data name="NewVersionFeatures" xml:space="preserve">
+    <value>Novinky v nové verzi:</value>
+  </data>
+  <data name="OpenMultipleFilesInGoogleEarth" xml:space="preserve">
+    <value>Otevřít více souborů QuickRoute v Google Earth</value>
+  </data>
+  <data name="LapX" xml:space="preserve">
+    <value>Úsek {0}</value>
+  </data>
+  <data name="MultipleFileExporterNoValidFiles" xml:space="preserve">
+    <value>Nejsou vybrány žádné platné soubory QuickRoute.</value>
+  </data>
+  <data name="MultipleFileExporterSomeInvalidFiles" xml:space="preserve">
+    <value>Následující soubory neobsahují údaje QuickRoute a nelze je zahrnout:
+
+{0}</value>
+  </data>
+  <data name="FileFilter_AllQuickRouteFiles" xml:space="preserve">
+    <value>Všechny soubory QuickRoute (*.qrt; *.xml; *.jpg; *.jpeg)|*.qrt;*.xml;*.jpg;*.jpeg</value>
+  </data>
+  <data name="UnrecognizedFileFormat" xml:space="preserve">
+    <value>Formát souboru {0} nebyl rozpoznán.</value>
+  </data>
+  <data name="Error_InvalidQuickRouteFile" xml:space="preserve">
+    <value>Soubor není platným souborem QuickRoute.</value>
+  </data>
+  <data name="SelectLapInfoColumns" xml:space="preserve">
+    <value>Vybrat sloupce</value>
+  </data>
+  <data name="SmoothingIntervalForX" xml:space="preserve">
+    <value>Interval vyhlazování pro {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Altitude" xml:space="preserve">
+    <value>Nadmořská výška: {0} m n. m.</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AltitudeDifference" xml:space="preserve">
+    <value>Výškový rozdíl (úsek): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AltitudeDifferenceFromStart" xml:space="preserve">
+    <value>Výškový rozdíl (celkem): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Ascent" xml:space="preserve">
+    <value>Nastoupané metry (úsek): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AscentFromStart" xml:space="preserve">
+    <value>Nastoupané metry (celkem): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageDirectionDeviationToNextLap" xml:space="preserve">
+    <value>Průměrná odchylka směru (úsek): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageDirectionDeviationToNextLapFromStart" xml:space="preserve">
+    <value>Průměrná odchylka směru (celkem): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageHeartRate" xml:space="preserve">
+    <value>Průměrná tepová frekvence (úsek): {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageHeartRateFromStart" xml:space="preserve">
+    <value>Průměrná tepová frekvence (celkem): {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageInclination" xml:space="preserve">
+    <value>Průměrný sklon (úsek): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageInclinationFromStart" xml:space="preserve">
+    <value>Průměrný sklon (celkem): {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRoutePace" xml:space="preserve">
+    <value>Průměrné tempo po trase (úsek): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRoutePaceFromStart" xml:space="preserve">
+    <value>Průměrné tempo po trase (celkem): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRouteSpeed" xml:space="preserve">
+    <value>Průměrná rychlost po trase (úsek): {0} km/h</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageRouteSpeedFromStart" xml:space="preserve">
+    <value>Průměrná rychlost po trase (celkem): {0} km/h</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLinePace" xml:space="preserve">
+    <value>Průměrné tempo vzdušnou čarou (úsek): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLinePaceFromStart" xml:space="preserve">
+    <value>Průměrné tempo vzdušnou čarou (celkem): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLineSpeed" xml:space="preserve">
+    <value>Průměrná rychlost vzdušnou čarou (úsek): {0} km/h</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageStraightLineSpeedFromStart" xml:space="preserve">
+    <value>Průměrná rychlost vzdušnou čarou (celkem): {0} km/h</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Descent" xml:space="preserve">
+    <value>Seběhnuté metry (úsek): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_DescentFromStart" xml:space="preserve">
+    <value>Seběhnuté metry (celkem): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Direction" xml:space="preserve">
+    <value>Směr: {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_DirectionDeviationToNextLap" xml:space="preserve">
+    <value>Odchylka směru: {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ElapsedTime" xml:space="preserve">
+    <value>Čas (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ElapsedTimeFromStart" xml:space="preserve">
+    <value>Čas (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_HeartRate" xml:space="preserve">
+    <value>Tepová frekvence: {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Inclination" xml:space="preserve">
+    <value>Sklon: {0}°</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_LapNumber" xml:space="preserve">
+    <value>Číslo úseku: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Location" xml:space="preserve">
+    <value>Poloha: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxHeartRate" xml:space="preserve">
+    <value>Maximální tepová frekvence (úsek): {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxHeartRateFromStart" xml:space="preserve">
+    <value>Maximální tepová frekvence (celkem): {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MinHeartRate" xml:space="preserve">
+    <value>Minimální tepová frekvence (úsek): {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MinHeartRateFromStart" xml:space="preserve">
+    <value>Minimální tepová frekvence (celkem): {0} tep/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Pace" xml:space="preserve">
+    <value>Tempo: {0} min/km</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteDistance" xml:space="preserve">
+    <value>Délka trasy (úsek): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteDistanceFromStart" xml:space="preserve">
+    <value>Délka trasy (celkem): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteToStraightLine" xml:space="preserve">
+    <value>Rozdíl délky trasy a vzdušné vzdálenosti (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_RouteToStraightLineFromStart" xml:space="preserve">
+    <value>Rozdíl délky trasy a vzdušné vzdálenosti (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Speed" xml:space="preserve">
+    <value>Rychlost: {0} km/h</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_StraightLineDistance" xml:space="preserve">
+    <value>Vzdušná vzdálenost (úsek): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_StraightLineDistanceFromStart" xml:space="preserve">
+    <value>Vzdušná vzdálenost (celkem): {0} m</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Time" xml:space="preserve">
+    <value>Denní čas: {0}</value>
+  </data>
+  <data name="RoutePropertyName_Altitude" xml:space="preserve">
+    <value>Nadmořská výška</value>
+  </data>
+  <data name="RoutePropertyName_AltitudeDifference" xml:space="preserve">
+    <value>Výškový rozdíl (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AltitudeDifferenceFromStart" xml:space="preserve">
+    <value>Výškový rozdíl (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_Ascent" xml:space="preserve">
+    <value>Nastoupané metry (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AscentFromStart" xml:space="preserve">
+    <value>Nastoupané metry (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageDirectionDeviationToNextLap" xml:space="preserve">
+    <value>Průměrná odchylka směru (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageDirectionDeviationToNextLapFromStart" xml:space="preserve">
+    <value>Průměrná odchylka směru (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageHeartRate" xml:space="preserve">
+    <value>Průměrná tepová frekvence (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageHeartRateFromStart" xml:space="preserve">
+    <value>Průměrná tepová frekvence (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageInclination" xml:space="preserve">
+    <value>Průměrný sklon (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageInclinationFromStart" xml:space="preserve">
+    <value>Průměrný sklon (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRoutePace" xml:space="preserve">
+    <value>Průměrné tempo po trase (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRoutePaceFromStart" xml:space="preserve">
+    <value>Průměrné tempo po trase (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRouteSpeed" xml:space="preserve">
+    <value>Průměrná rychlost po trase (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageRouteSpeedFromStart" xml:space="preserve">
+    <value>Průměrná rychlost po trase (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLinePace" xml:space="preserve">
+    <value>Průměrné tempo vzdušnou čarou (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLinePaceFromStart" xml:space="preserve">
+    <value>Průměrné tempo vzdušnou čarou (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLineSpeed" xml:space="preserve">
+    <value>Průměrná rychlost vzdušnou čarou (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageStraightLineSpeedFromStart" xml:space="preserve">
+    <value>Průměrná rychlost vzdušnou čarou (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_Descent" xml:space="preserve">
+    <value>Seběhnuté metry (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_DescentFromStart" xml:space="preserve">
+    <value>Seběhnuté metry (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_Direction" xml:space="preserve">
+    <value>Směr</value>
+  </data>
+  <data name="RoutePropertyName_DirectionDeviationToNextLap" xml:space="preserve">
+    <value>Odchylka směru</value>
+  </data>
+  <data name="RoutePropertyName_ElapsedTime" xml:space="preserve">
+    <value>Čas (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_ElapsedTimeFromStart" xml:space="preserve">
+    <value>Čas (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_HeartRate" xml:space="preserve">
+    <value>Tepová frekvence</value>
+  </data>
+  <data name="RoutePropertyName_Inclination" xml:space="preserve">
+    <value>Sklon</value>
+  </data>
+  <data name="RoutePropertyName_LapNumber" xml:space="preserve">
+    <value>Číslo úseku</value>
+  </data>
+  <data name="RoutePropertyName_Location" xml:space="preserve">
+    <value>Poloha</value>
+  </data>
+  <data name="RoutePropertyName_MaxHeartRate" xml:space="preserve">
+    <value>Maximální tepová frekvence (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_MaxHeartRateFromStart" xml:space="preserve">
+    <value>Maximální tepová frekvence (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_MinHeartRate" xml:space="preserve">
+    <value>Minimální tepová frekvence (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_MinHeartRateFromStart" xml:space="preserve">
+    <value>Minimální tepová frekvence (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_Pace" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="RoutePropertyName_RouteDistance" xml:space="preserve">
+    <value>Délka trasy (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_RouteDistanceFromStart" xml:space="preserve">
+    <value>Délka trasy (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_RouteToStraightLine" xml:space="preserve">
+    <value>Rozdíl délky trasy a vzdušné vzdálenosti (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_RouteToStraightLineFromStart" xml:space="preserve">
+    <value>Rozdíl délky trasy a vzdušné vzdálenosti (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_Speed" xml:space="preserve">
+    <value>Rychlost</value>
+  </data>
+  <data name="RoutePropertyName_StraightLineDistance" xml:space="preserve">
+    <value>Vzdušná vzdálenost (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_StraightLineDistanceFromStart" xml:space="preserve">
+    <value>Vzdušná vzdálenost (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_Time" xml:space="preserve">
+    <value>Denní čas</value>
+  </data>
+  <data name="SelectMomentaneousInfoProperties" xml:space="preserve">
+    <value>Vybrat údaje</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ImageX" xml:space="preserve">
+    <value>Vodorovná poloha v obrázku: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_ImageY" xml:space="preserve">
+    <value>Svislá poloha v obrázku: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Latitude" xml:space="preserve">
+    <value>Zeměpisná šířka: {0}</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Longitude" xml:space="preserve">
+    <value>Zeměpisná délka: {0}</value>
+  </data>
+  <data name="RoutePropertyName_ImageX" xml:space="preserve">
+    <value>Vodorovná poloha v obrázku</value>
+  </data>
+  <data name="RoutePropertyName_ImageY" xml:space="preserve">
+    <value>Svislá poloha v obrázku</value>
+  </data>
+  <data name="RoutePropertyName_Latitude" xml:space="preserve">
+    <value>Zeměpisná šířka</value>
+  </data>
+  <data name="RoutePropertyName_Longitude" xml:space="preserve">
+    <value>Zeměpisná délka</value>
+  </data>
+  <data name="FileFilter_KmzFiles" xml:space="preserve">
+    <value>Soubory KMZ (*.kmz)|*.kmz</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeBackward" xml:space="preserve">
+    <value>Čas příchodu do aktuální polohy</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeBackward" xml:space="preserve">
+    <value>Čas příchodu do aktuální polohy: {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeForward" xml:space="preserve">
+    <value>Čas odchodu z aktuální polohy</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeForward" xml:space="preserve">
+    <value>Čas odchodu z aktuální polohy: {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtStartOfSpan" xml:space="preserve">
+    <value>Čas odchodu od kontroly</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtStartOfSpan" xml:space="preserve">
+    <value>Čas odchodu od kontroly: {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtEndOfSpan" xml:space="preserve">
+    <value>Čas příchodu ke kontrole</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtEndOfSpan" xml:space="preserve">
+    <value>Čas příchodu ke kontrole: {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtStartOfSpanFromStart" xml:space="preserve">
+    <value>Součet časů odchodu od kontrol</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtStartOfSpanFromStart" xml:space="preserve">
+    <value>Součet časů odchodu od kontrol: {0}</value>
+  </data>
+  <data name="RoutePropertyName_CircleTimeAtEndOfSpanFromStart" xml:space="preserve">
+    <value>Součet časů příchodu ke kontrolám</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_CircleTimeAtEndOfSpanFromStart" xml:space="preserve">
+    <value>Součet časů příchodu ke kontrolám: {0}</value>
+  </data>
+  <data name="DeleteLapX" xml:space="preserve">
+    <value>Odstranit mezičas {0}</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Tisk...</value>
+  </data>
+  <data name="MapReadingDuration" xml:space="preserve">
+    <value>Doba čtení mapy</value>
+  </data>
+  <data name="Cadence" xml:space="preserve">
+    <value>Kadence</value>
+  </data>
+  <data name="Power" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="Unit_Cadence" xml:space="preserve">
+    <value>ot/min</value>
+  </data>
+  <data name="Unit_Power" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Unit_Time" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="RoutePropertyName_AverageTimeBetweenMapReadings" xml:space="preserve">
+    <value>Průměrná doba mezi čtením mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageTimeBetweenMapReadings" xml:space="preserve">
+    <value>Průměrná doba mezi čtením mapy (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyName_AverageTimeBetweenMapReadingsFromStart" xml:space="preserve">
+    <value>Průměrná doba mezi čtením mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageTimeBetweenMapReadingsFromStart" xml:space="preserve">
+    <value>Průměrná doba mezi čtením mapy (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyName_AverageMapReadingTime" xml:space="preserve">
+    <value>Průměrná doba čtení mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageMapReadingTime" xml:space="preserve">
+    <value>Průměrná doba čtení mapy (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyName_AverageMapReadingTimeFromStart" xml:space="preserve">
+    <value>Průměrná doba čtení mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageMapReadingTimeFromStart" xml:space="preserve">
+    <value>Průměrná doba čtení mapy (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyName_MapReadingDuration" xml:space="preserve">
+    <value>Doba čtení mapy</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MapReadingDuration" xml:space="preserve">
+    <value>Doba čtení mapy: {0}</value>
+  </data>
+  <data name="RoutePropertyName_MapReadingDurationInSpan" xml:space="preserve">
+    <value>Doba čtení mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MapReadingDurationInSpan" xml:space="preserve">
+    <value>Doba čtení mapy (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyName_MapReadingDurationFromStart" xml:space="preserve">
+    <value>Doba čtení mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MapReadingDurationFromStart" xml:space="preserve">
+    <value>Doba čtení mapy (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyName_MapReadingPercentage" xml:space="preserve">
+    <value>Podíl času čtení mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MapReadingPercentage" xml:space="preserve">
+    <value>Podíl času čtení mapy (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyName_MapReadingPercentageFromStart" xml:space="preserve">
+    <value>Podíl času čtení mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MapReadingPercentageFromStart" xml:space="preserve">
+    <value>Podíl času čtení mapy (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyName_MapReadingState" xml:space="preserve">
+    <value>Čtení mapy</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MapReadingState" xml:space="preserve">
+    <value>Čtení mapy: {0}</value>
+  </data>
+  <data name="RoutePropertyName_PreviousMapReadingEnd" xml:space="preserve">
+    <value>Doba od konce předchozího čtení mapy</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_PreviousMapReadingEnd" xml:space="preserve">
+    <value>Doba od konce předchozího čtení mapy: {0}</value>
+  </data>
+  <data name="RoutePropertyName_NextMapReadingStart" xml:space="preserve">
+    <value>Doba do začátku příštího čtení mapy</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_NextMapReadingStart" xml:space="preserve">
+    <value>Doba do začátku příštího čtení mapy: {0}</value>
+  </data>
+  <data name="RoutePropertyName_NumberOfMapReadings" xml:space="preserve">
+    <value>Počet čtení mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_NumberOfMapReadings" xml:space="preserve">
+    <value>Počet čtení mapy (úsek): {0}</value>
+  </data>
+  <data name="RoutePropertyName_NumberOfMapReadingsFromStart" xml:space="preserve">
+    <value>Počet čtení mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_NumberOfMapReadingsFromStart" xml:space="preserve">
+    <value>Počet čtení mapy (celkem): {0}</value>
+  </data>
+  <data name="RoutePropertyName_AveragePaceWhenReadingMap" xml:space="preserve">
+    <value>Průměrné tempo při čtení mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AveragePaceWhenReadingMap" xml:space="preserve">
+    <value>Průměrné tempo při čtení mapy (úsek): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyName_AveragePaceWhenReadingMapFromStart" xml:space="preserve">
+    <value>Průměrné tempo při čtení mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AveragePaceWhenReadingMapFromStart" xml:space="preserve">
+    <value>Průměrné tempo při čtení mapy (celkem): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyName_AveragePaceWhenNotReadingMap" xml:space="preserve">
+    <value>Průměrné tempo bez čtení mapy (úsek)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AveragePaceWhenNotReadingMap" xml:space="preserve">
+    <value>Průměrné tempo bez čtení mapy (úsek): {0} min/km</value>
+  </data>
+  <data name="RoutePropertyName_AveragePaceWhenNotReadingMapFromStart" xml:space="preserve">
+    <value>Průměrné tempo bez čtení mapy (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AveragePaceWhenNotReadingMapFromStart" xml:space="preserve">
+    <value>Průměrné tempo bez čtení mapy (celkem): {0} min/km</value>
+  </data>
+  <data name="NoSecondaryColorCoding" xml:space="preserve">
+    <value>[bez druhé barvy]</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>nepřipojeno</value>
+  </data>
+  <data name="ImageSize" xml:space="preserve">
+    <value>Velikost obrázku</value>
+  </data>
+  <data name="Pixels" xml:space="preserve">
+    <value>pixely</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Změnit</value>
+  </data>
+  <data name="DownloadingImage" xml:space="preserve">
+    <value>Stahování obrázku</value>
+  </data>
+  <data name="FileFilter_FitFiles" xml:space="preserve">
+    <value>Garmin FIT (*.fit)|*.fit</value>
+  </data>
+  <data name="RoutePropertyName_Cadence" xml:space="preserve">
+    <value>Kadence</value>
+  </data>
+  <data name="RoutePropertyName_Power" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="RoutePropertyName_AverageCadence" xml:space="preserve">
+    <value>Průměrná kadence (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AverageCadenceFromStart" xml:space="preserve">
+    <value>Průměrná kadence (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_AveragePower" xml:space="preserve">
+    <value>Průměrný výkon (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_AveragePowerFromStart" xml:space="preserve">
+    <value>Průměrný výkon (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_MaxCadence" xml:space="preserve">
+    <value>Maximální kadence (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_MaxCadenceFromStart" xml:space="preserve">
+    <value>Maximální kadence (celkem)</value>
+  </data>
+  <data name="RoutePropertyName_MaxPower" xml:space="preserve">
+    <value>Maximální výkon (úsek)</value>
+  </data>
+  <data name="RoutePropertyName_MaxPowerFromStart" xml:space="preserve">
+    <value>Maximální výkon (celkem)</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Cadence" xml:space="preserve">
+    <value>Kadence: {0} ot/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_Power" xml:space="preserve">
+    <value>Výkon: {0} W</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageCadence" xml:space="preserve">
+    <value>Průměrná kadence (úsek): {0} ot/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AverageCadenceFromStart" xml:space="preserve">
+    <value>Průměrná kadence (celkem): {0} ot/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AveragePower" xml:space="preserve">
+    <value>Průměrný výkon (úsek): {0} W</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_AveragePowerFromStart" xml:space="preserve">
+    <value>Průměrný výkon (celkem): {0} W</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxCadence" xml:space="preserve">
+    <value>Maximální kadence (úsek): {0} ot/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxCadenceFromStart" xml:space="preserve">
+    <value>Maximální kadence (celkem): {0} ot/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxPower" xml:space="preserve">
+    <value>Maximální výkon (úsek): {0} ot/min</value>
+  </data>
+  <data name="RoutePropertyNameAndValue_MaxPowerFromStart" xml:space="preserve">
+    <value>Maximální výkon (celkem): {0} ot/min</value>
+  </data>
+  <data name="Error_InvalidApiResponse" xml:space="preserve">
+    <value>Neplatná odpověď.</value>
+  </data>
+  <data name="Error_MissingApiData" xml:space="preserve">
+    <value>V odpovědi chybí údaje.</value>
+  </data>
+  <data name="Error_InvalidIofXml" xml:space="preserve">
+    <value>Neplatná odpověď ve formátu IOF XML.</value>
+  </data>
+  <data name="Error_TooManyEvents" xml:space="preserve">
+    <value>Příliš mnoho závodů. Vyberte zemi nebo kratší období.</value>
+  </data>
+  <data name="Error_PrintOperation" xml:space="preserve">
+    <value>Operace selhala: {0}</value>
+  </data>
+  <data name="Error_Title" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="PropertyCategory_Misc" xml:space="preserve">
+    <value>Ostatní</value>
+  </data>
+  <data name="PropertyValue_True" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="PropertyValue_False" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="CountryName_AUS" xml:space="preserve">
+    <value>Austrálie</value>
+  </data>
+  <data name="CountryName_AUT" xml:space="preserve">
+    <value>Rakousko</value>
+  </data>
+  <data name="CountryName_BEL" xml:space="preserve">
+    <value>Belgie</value>
+  </data>
+  <data name="CountryName_CAN" xml:space="preserve">
+    <value>Kanada</value>
+  </data>
+  <data name="CountryName_CHN" xml:space="preserve">
+    <value>Čína</value>
+  </data>
+  <data name="CountryName_CZE" xml:space="preserve">
+    <value>Česko</value>
+  </data>
+  <data name="CountryName_DEN" xml:space="preserve">
+    <value>Dánsko</value>
+  </data>
+  <data name="CountryName_DNK" xml:space="preserve">
+    <value>Dánsko</value>
+  </data>
+  <data name="CountryName_ESP" xml:space="preserve">
+    <value>Španělsko</value>
+  </data>
+  <data name="CountryName_EST" xml:space="preserve">
+    <value>Estonsko</value>
+  </data>
+  <data name="CountryName_FIN" xml:space="preserve">
+    <value>Finsko</value>
+  </data>
+  <data name="CountryName_FRA" xml:space="preserve">
+    <value>Francie</value>
+  </data>
+  <data name="CountryName_GBR" xml:space="preserve">
+    <value>Spojené království</value>
+  </data>
+  <data name="CountryName_GER" xml:space="preserve">
+    <value>Německo</value>
+  </data>
+  <data name="CountryName_DEU" xml:space="preserve">
+    <value>Německo</value>
+  </data>
+  <data name="CountryName_HUN" xml:space="preserve">
+    <value>Maďarsko</value>
+  </data>
+  <data name="CountryName_IRL" xml:space="preserve">
+    <value>Irsko</value>
+  </data>
+  <data name="CountryName_ISR" xml:space="preserve">
+    <value>Izrael</value>
+  </data>
+  <data name="CountryName_ITA" xml:space="preserve">
+    <value>Itálie</value>
+  </data>
+  <data name="CountryName_JPN" xml:space="preserve">
+    <value>Japonsko</value>
+  </data>
+  <data name="CountryName_KOR" xml:space="preserve">
+    <value>Jižní Korea</value>
+  </data>
+  <data name="CountryName_LAT" xml:space="preserve">
+    <value>Lotyšsko</value>
+  </data>
+  <data name="CountryName_LVA" xml:space="preserve">
+    <value>Lotyšsko</value>
+  </data>
+  <data name="CountryName_LTU" xml:space="preserve">
+    <value>Litva</value>
+  </data>
+  <data name="CountryName_NED" xml:space="preserve">
+    <value>Nizozemsko</value>
+  </data>
+  <data name="CountryName_NLD" xml:space="preserve">
+    <value>Nizozemsko</value>
+  </data>
+  <data name="CountryName_NOR" xml:space="preserve">
+    <value>Norsko</value>
+  </data>
+  <data name="CountryName_NZL" xml:space="preserve">
+    <value>Nový Zéland</value>
+  </data>
+  <data name="CountryName_POL" xml:space="preserve">
+    <value>Polsko</value>
+  </data>
+  <data name="CountryName_POR" xml:space="preserve">
+    <value>Portugalsko</value>
+  </data>
+  <data name="CountryName_PRT" xml:space="preserve">
+    <value>Portugalsko</value>
+  </data>
+  <data name="CountryName_RUS" xml:space="preserve">
+    <value>Rusko</value>
+  </data>
+  <data name="CountryName_SUI" xml:space="preserve">
+    <value>Švýcarsko</value>
+  </data>
+  <data name="CountryName_CHE" xml:space="preserve">
+    <value>Švýcarsko</value>
+  </data>
+  <data name="CountryName_SVK" xml:space="preserve">
+    <value>Slovensko</value>
+  </data>
+  <data name="CountryName_SLO" xml:space="preserve">
+    <value>Slovinsko</value>
+  </data>
+  <data name="CountryName_SVN" xml:space="preserve">
+    <value>Slovinsko</value>
+  </data>
+  <data name="CountryName_SWE" xml:space="preserve">
+    <value>Švédsko</value>
+  </data>
+  <data name="CountryName_UKR" xml:space="preserve">
+    <value>Ukrajina</value>
+  </data>
+  <data name="CountryName_USA" xml:space="preserve">
+    <value>Spojené státy</value>
+  </data>
+  <data name="CountryName_RSA" xml:space="preserve">
+    <value>Jižní Afrika</value>
+  </data>
+  <data name="CountryName_ZAF" xml:space="preserve">
+    <value>Jižní Afrika</value>
+  </data>
+</root>

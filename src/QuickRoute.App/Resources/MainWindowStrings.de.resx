@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Datei</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Neu...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>Ö&amp;ffnen...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Speichern</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>Speichern &amp;unter...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>Strecken &amp;importieren...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Exportieren</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>Bi&amp;ld...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>Strecken&amp;daten...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>&amp;Beenden</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>&amp;Bearbeiten</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Rückgängig</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Wiederholen</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>&amp;Startzeit ändern...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Ansicht</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>&amp;Vollbild</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>&amp;Rechten Bereich anzeigen</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>&amp;Unteren Bereich anzeigen</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>&amp;Extras</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>Zwischenzeiten von &amp;WinSplits hinzufügen...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>Ein&amp;stellungen</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Sprache</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Hilfe...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>Ü&amp;ber...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Neu (Strg+N)</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Öffnen (Strg+O)</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Speichern (Strg+S)</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Rückgängig (Strg+Z)</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Wiederholen (Strg+Y)</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Mauszeiger</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Strecke anpassen</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Zwischenzeit hinzufügen</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Strecke abschneiden</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Vergrößern</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Verkleinern</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Vollbild</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Rechten Bereich anzeigen (Strg+Shift+R)</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Unteren Bereich anzeigen (Strg+Shift+B)</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Strecke farbcodieren nach...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Startwert des Farbbereichs</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Endwert des Farbbereichs</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Farbbereichintervall setzen</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Farbbereichintervall automatisch anpassen</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Transparenz der Streckenlinie</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Breite der Streckenlinie</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Ränder der Streckenlinie zeigen</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Randbreite der Streckenlinie</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Randfarbe der Streckenlinie</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Zwischenzeiten</value>
+  </data>
+</root>

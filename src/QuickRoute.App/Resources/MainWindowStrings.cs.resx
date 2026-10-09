@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu_File" xml:space="preserve">
+    <value>&amp;Soubor</value>
+  </data>
+  <data name="Menu_FileNew" xml:space="preserve">
+    <value>&amp;Nový...</value>
+  </data>
+  <data name="Menu_FileOpen" xml:space="preserve">
+    <value>&amp;Otevřít...</value>
+  </data>
+  <data name="Menu_FileSave" xml:space="preserve">
+    <value>&amp;Uložit</value>
+  </data>
+  <data name="Menu_FileSaveAs" xml:space="preserve">
+    <value>&amp;Uložit jako...</value>
+  </data>
+  <data name="Menu_FileImportSessions" xml:space="preserve">
+    <value>&amp;Importovat trasy...</value>
+  </data>
+  <data name="Menu_FileExport" xml:space="preserve">
+    <value>&amp;Exportovat</value>
+  </data>
+  <data name="Menu_FileExportImage" xml:space="preserve">
+    <value>&amp;Obrázek...</value>
+  </data>
+  <data name="Menu_FileExportGpx" xml:space="preserve">
+    <value>&amp;GPX...</value>
+  </data>
+  <data name="Menu_FileExportKmz" xml:space="preserve">
+    <value>&amp;KMZ...</value>
+  </data>
+  <data name="Menu_FileExportRouteData" xml:space="preserve">
+    <value>&amp;Údaje trasy...</value>
+  </data>
+  <data name="Menu_FileExit" xml:space="preserve">
+    <value>&amp;Ukončit</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>Ú&amp;pravy</value>
+  </data>
+  <data name="Menu_EditUndo" xml:space="preserve">
+    <value>&amp;Zpět</value>
+  </data>
+  <data name="Menu_EditRedo" xml:space="preserve">
+    <value>&amp;Znovu</value>
+  </data>
+  <data name="Menu_EditChangeStartTime" xml:space="preserve">
+    <value>&amp;Změnit čas startu...</value>
+  </data>
+  <data name="Menu_View" xml:space="preserve">
+    <value>&amp;Zobrazení</value>
+  </data>
+  <data name="Menu_ViewFullScreen" xml:space="preserve">
+    <value>&amp;Celá obrazovka</value>
+  </data>
+  <data name="Menu_ViewRightPanel" xml:space="preserve">
+    <value>&amp;Zobrazit pravý panel</value>
+  </data>
+  <data name="Menu_ViewBottomPanel" xml:space="preserve">
+    <value>&amp;Zobrazit dolní panel</value>
+  </data>
+  <data name="Menu_Image" xml:space="preserve">
+    <value>&amp;Obrázek</value>
+  </data>
+  <data name="Menu_ImageRotateClockwise" xml:space="preserve">
+    <value>Otočit o 90° doprava</value>
+  </data>
+  <data name="Menu_ImageRotateCounterclockwise" xml:space="preserve">
+    <value>Otočit o 90° doleva</value>
+  </data>
+  <data name="Menu_Tools" xml:space="preserve">
+    <value>&amp;Nástroje</value>
+  </data>
+  <data name="Menu_ToolsAddLaps" xml:space="preserve">
+    <value>&amp;Přidat mezičasy z externího zdroje...</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>Nas&amp;tavení</value>
+  </data>
+  <data name="Menu_SettingsLanguage" xml:space="preserve">
+    <value>&amp;Jazyk...</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>Nápo&amp;věda</value>
+  </data>
+  <data name="Menu_HelpHelp" xml:space="preserve">
+    <value>&amp;Nápověda...</value>
+  </data>
+  <data name="Menu_HelpAbout" xml:space="preserve">
+    <value>&amp;O aplikaci...</value>
+  </data>
+  <data name="Tip_New" xml:space="preserve">
+    <value>Nový</value>
+  </data>
+  <data name="Tip_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="Tip_Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="Tip_Undo" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="Tip_Redo" xml:space="preserve">
+    <value>Znovu</value>
+  </data>
+  <data name="Tip_Zoom" xml:space="preserve">
+    <value>Měřítko</value>
+  </data>
+  <data name="Tip_Pointer" xml:space="preserve">
+    <value>Ukazatel</value>
+  </data>
+  <data name="Tip_AdjustRoute" xml:space="preserve">
+    <value>Přizpůsobit trasu</value>
+  </data>
+  <data name="Tip_Lap" xml:space="preserve">
+    <value>Přidat mezičas</value>
+  </data>
+  <data name="Tip_Cut" xml:space="preserve">
+    <value>Oříznout trasu</value>
+  </data>
+  <data name="Tip_ZoomIn" xml:space="preserve">
+    <value>Přiblížit</value>
+  </data>
+  <data name="Tip_ZoomOut" xml:space="preserve">
+    <value>Oddálit</value>
+  </data>
+  <data name="Tip_FullScreen" xml:space="preserve">
+    <value>Celá obrazovka</value>
+  </data>
+  <data name="Tip_RightPanel" xml:space="preserve">
+    <value>Zobrazit pravý panel</value>
+  </data>
+  <data name="Tip_BottomPanel" xml:space="preserve">
+    <value>Zobrazit dolní panel</value>
+  </data>
+  <data name="Tip_Help" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
+  <data name="Tip_ColorCodingAttribute" xml:space="preserve">
+    <value>Obarvit trasu podle...</value>
+  </data>
+  <data name="Tip_ColorRangeStart" xml:space="preserve">
+    <value>Dolní mez barevného rozsahu</value>
+  </data>
+  <data name="Tip_ColorRangeEnd" xml:space="preserve">
+    <value>Horní mez barevného rozsahu</value>
+  </data>
+  <data name="Tip_ColorRangeInterval" xml:space="preserve">
+    <value>Nastavit barevný rozsah</value>
+  </data>
+  <data name="Tip_AutoAdjustColorRange" xml:space="preserve">
+    <value>Automaticky upravit barevný rozsah</value>
+  </data>
+  <data name="Tip_Transparency" xml:space="preserve">
+    <value>Průhlednost trasy</value>
+  </data>
+  <data name="Tip_LineWidth" xml:space="preserve">
+    <value>Šířka čáry trasy</value>
+  </data>
+  <data name="Tip_MaskVisible" xml:space="preserve">
+    <value>Zobrazit obrys trasy</value>
+  </data>
+  <data name="Tip_MaskWidth" xml:space="preserve">
+    <value>Šířka obrysu trasy</value>
+  </data>
+  <data name="Tip_MaskColor" xml:space="preserve">
+    <value>Barva obrysu trasy</value>
+  </data>
+  <data name="Tip_SecondaryColorCoding" xml:space="preserve">
+    <value>Druhé barevné rozlišení trasy</value>
+  </data>
+  <data name="Tip_SmoothingInterval" xml:space="preserve">
+    <value>Délka intervalu vyhlazování</value>
+  </data>
+  <data name="Tip_CircleTimeRadius" xml:space="preserve">
+    <value>Poloměr kruhu pro příchod a odchod z kontroly</value>
+  </data>
+  <data name="Label_SplitTimes" xml:space="preserve">
+    <value>Mezičasy</value>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Button_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Button_Browse" xml:space="preserve">
+    <value>Procházet...</value>
+  </data>
+  <data name="Menu_FileRecent" xml:space="preserve">
+    <value>&amp;Poslední dokumenty</value>
+  </data>
+  <data name="Recent_None" xml:space="preserve">
+    <value>(žádné)</value>
+  </data>
+  <data name="Menu_ToolsOpenExportedKmz" xml:space="preserve">
+    <value>Otevřít v &amp;mapové aplikaci (KMZ)...</value>
+  </data>
+  <data name="FileType_Qrtx" xml:space="preserve">
+    <value>Dokument QuickRoute2 (*.qrtx)</value>
+  </data>
+  <data name="FileType_AllQuickRoute" xml:space="preserve">
+    <value>Všechny podporované dokumenty</value>
+  </data>
+  <data name="FileType_Images" xml:space="preserve">
+    <value>Obrázky</value>
+  </data>
+  <data name="FileType_AllRoutes" xml:space="preserve">
+    <value>Všechny soubory s trasou</value>
+  </data>
+  <data name="Legacy_SavedAsNewFormat" xml:space="preserve">
+    <value>Tento dokument byl vytvořen aplikací QuickRoute. Uloží se ve formátu dokumentu QuickRoute2 (*.qrtx); původní soubor se nezmění.</value>
+  </data>
+  <data name="NewDocument_Title" xml:space="preserve">
+    <value>Nový dokument</value>
+  </data>
+  <data name="NewDocument_Map" xml:space="preserve">
+    <value>Mapa:</value>
+  </data>
+  <data name="NewDocument_Route" xml:space="preserve">
+    <value>Soubor s trasou:</value>
+  </data>
+  <data name="NewDocument_Person" xml:space="preserve">
+    <value>Jméno:</value>
+  </data>
+  <data name="NewDocument_BlankMapHint" xml:space="preserve">
+    <value>Ponechte mapu prázdnou pro použití prázdné mapy.</value>
+  </data>
+  <data name="NewDocument_SelectMap" xml:space="preserve">
+    <value>Vybrat mapu</value>
+  </data>
+  <data name="NewDocument_SelectRoute" xml:space="preserve">
+    <value>Vybrat soubor s trasou</value>
+  </data>
+  <data name="ImportChoice_Title" xml:space="preserve">
+    <value>Vyberte aktivitu</value>
+  </data>
+  <data name="ImportChoice_Label" xml:space="preserve">
+    <value>Aktivita:</value>
+  </data>
+  <data name="ExportImage_Size" xml:space="preserve">
+    <value>Velikost (%):</value>
+  </data>
+  <data name="ExportImage_Quality" xml:space="preserve">
+    <value>Kvalita JPEG (%):</value>
+  </data>
+  <data name="ExportImage_Pixels" xml:space="preserve">
+    <value>{0} × {1} pixelů</value>
+  </data>
+  <data name="Kmz_Map" xml:space="preserve">
+    <value>Mapa:</value>
+  </data>
+  <data name="Kmz_MapNone" xml:space="preserve">
+    <value>Bez mapy</value>
+  </data>
+  <data name="Kmz_MapOnly" xml:space="preserve">
+    <value>Pouze mapa</value>
+  </data>
+  <data name="Kmz_MapAndRoute" xml:space="preserve">
+    <value>Mapa a trasa</value>
+  </data>
+  <data name="Kmz_Route" xml:space="preserve">
+    <value>Čáry trasy:</value>
+  </data>
+  <data name="Kmz_RouteNone" xml:space="preserve">
+    <value>Žádné</value>
+  </data>
+  <data name="Kmz_RouteMonochrome" xml:space="preserve">
+    <value>Jednobarevné</value>
+  </data>
+  <data name="Kmz_RouteColorCoded" xml:space="preserve">
+    <value>Barevně kódované</value>
+  </data>
+  <data name="Kmz_Adapt" xml:space="preserve">
+    <value>Přizpůsobit čáry trasy mapě</value>
+  </data>
+  <data name="RouteData_SamplingInterval" xml:space="preserve">
+    <value>Interval vzorkování (s):</value>
+  </data>
+  <data name="Time_Label" xml:space="preserve">
+    <value>Čas:</value>
+  </data>
+  <data name="Time_Invalid" xml:space="preserve">
+    <value>Čas není platný.</value>
+  </data>
+  <data name="Cut_Title" xml:space="preserve">
+    <value>Oříznout trasu</value>
+  </data>
+  <data name="Cut_Before" xml:space="preserve">
+    <value>Odstranit část trasy před tímto časem</value>
+  </data>
+  <data name="Cut_After" xml:space="preserve">
+    <value>Odstranit část trasy po tomto čase</value>
+  </data>
+  <data name="ExternalLaps_Source" xml:space="preserve">
+    <value>Zdroj dat:</value>
+  </data>
+  <data name="ExternalLaps_From" xml:space="preserve">
+    <value>Od:</value>
+  </data>
+  <data name="ExternalLaps_To" xml:space="preserve">
+    <value>Do:</value>
+  </data>
+  <data name="ExternalLaps_Region" xml:space="preserve">
+    <value>Oblast / země:</value>
+  </data>
+  <data name="ExternalLaps_All" xml:space="preserve">
+    <value>Vše</value>
+  </data>
+  <data name="ExternalLaps_Event" xml:space="preserve">
+    <value>Závod:</value>
+  </data>
+  <data name="ExternalLaps_Class" xml:space="preserve">
+    <value>Kategorie:</value>
+  </data>
+  <data name="ExternalLaps_Runner" xml:space="preserve">
+    <value>Závodník:</value>
+  </data>
+  <data name="ExternalLaps_Search" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
+  <data name="ExternalLaps_Loading" xml:space="preserve">
+    <value>Načítání...</value>
+  </data>
+  <data name="Language_Title" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="Language_Label" xml:space="preserve">
+    <value>Jazyk:</value>
+  </data>
+  <data name="Language_Default" xml:space="preserve">
+    <value>Podle systému</value>
+  </data>
+  <data name="Language_Restart" xml:space="preserve">
+    <value>Nový jazyk se použije po restartu aplikace QuickRoute2.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>O aplikaci QuickRoute2</value>
+  </data>
+  <data name="About_BasedOn" xml:space="preserve">
+    <value>Založeno na aplikaci QuickRoute od Matse Troenga a Jörgena Ohlina</value>
+  </data>
+  <data name="About_Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Error_MapImage" xml:space="preserve">
+    <value>Mapu se nepodařilo načíst.</value>
+  </data>
+  <data name="Error_ExternalLaps" xml:space="preserve">
+    <value>Mezičasy se nepodařilo načíst.</value>
+  </data>
+  <data name="Error_OpenFile" xml:space="preserve">
+    <value>Soubor se nepodařilo otevřít.</value>
+  </data>
+  <data name="Info_NotAQuickRouteImage" xml:space="preserve">
+    <value>Obrázek neobsahuje data QuickRoute.</value>
+  </data>
+</root>

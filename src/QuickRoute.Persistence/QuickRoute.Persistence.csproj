@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>QuickRoute.Persistence</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickRoute.Core\QuickRoute.Core.csproj" />
+    <ProjectReference Include="..\QuickRoute.Import\QuickRoute.Import.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Formats.Nrbf" Version="10.0.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="QuickRoute.Tests" />
+  </ItemGroup>
+</Project>

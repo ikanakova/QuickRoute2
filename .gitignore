@@ -1,0 +1,24 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+artifacts/
+TestResults/
+*.nupkg
+
+# IDE and user-specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Packaging output
+*.AppImage
+*.AppDir/

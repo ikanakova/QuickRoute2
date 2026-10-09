@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>QuickRoute.Rendering</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickRoute.Core\QuickRoute.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Keep in sync with the SkiaSharp version used by Avalonia.Skia. -->
+    <PackageReference Include="SkiaSharp" Version="2.88.9" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.88.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\HeaderLogo.png" LogicalName="QuickRoute.Rendering.HeaderLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="QuickRoute.Tests" />
+  </ItemGroup>
+</Project>

@@ -5,9 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Controls.Primitives;
 using Avalonia.Headless;
 using Avalonia.Headless.XUnit;
 using Avalonia.Input;
+using Avalonia.Interactivity;
 using Avalonia.Threading;
 using Avalonia.VisualTree;
 using QuickRoute.App;
@@ -61,6 +63,45 @@ namespace QuickRoute.App.Tests
 
       var grid = window.GetVisualDescendants().OfType<DataGrid>().Single();
       Assert.Equal(3, ((System.Collections.IEnumerable)grid.ItemsSource).Cast<object>().Count());
+      window.Close();
+    }
+
+    [AvaloniaFact]
+    public async Task SidePanelCanBeHiddenAndShownAndHelpIsATooltip()
+    {
+      var window = new MainWindow(new AppSettings());
+      window.Show();
+      window.OpenFileOnStartup(FixturePath);
+      var canvas = window.GetVisualDescendants().OfType<MapCanvas>().Single();
+      for (var i = 0; i < 100 && canvas.Document == null; i++)
+      {
+        await Task.Delay(50);
+        Dispatcher.UIThread.RunJobs();
+      }
+      var rightPanel = window.FindControl<Grid>("RightPanel");
+      var bottomPanel = window.FindControl<Border>("BottomPanel");
+      var toolRight = window.FindControl<ToggleButton>("ToolRightPanel");
+      var toolBottom = window.FindControl<ToggleButton>("ToolBottomPanel");
+      Assert.True(rightPanel.IsVisible);
+      Assert.True(bottomPanel.IsVisible);
+
+      toolRight.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+      toolBottom.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+      Dispatcher.UIThread.RunJobs();
+      Assert.False(rightPanel.IsVisible);
+      Assert.False(bottomPanel.IsVisible);
+
+      toolRight.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+      toolBottom.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+      Dispatcher.UIThread.RunJobs();
+      Assert.True(rightPanel.IsVisible);
+      Assert.True(bottomPanel.IsVisible);
+
+      Assert.Null(window.FindControl<TextBlock>("StatusText"));
+      var help = window.FindControl<TextBlock>("MouseToolHelp");
+      Assert.False(string.IsNullOrEmpty(ToolTip.GetTip(help) as string));
+      var metrics = window.FindControl<WrapPanel>("MomentaneousInfoPanel");
+      Assert.NotEmpty(metrics.Children);
       window.Close();
     }
 

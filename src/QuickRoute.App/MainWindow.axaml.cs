@@ -555,7 +555,7 @@ namespace QuickRoute.App
       ToolFullScreen.IsChecked = MenuViewFullScreen.IsChecked = WindowState == WindowState.FullScreen;
       ToolRightPanel.IsChecked = MenuViewRightPanel.IsChecked = settings.RightPanelVisible;
       ToolBottomPanel.IsChecked = MenuViewBottomPanel.IsChecked = settings.BottomPanelVisible;
-      StatusText.Text = Loc.S("DynamicHelp_MouseTool_" + Canvas.MouseTool);
+      ToolTip.SetTip(MouseToolHelp, Loc.S("DynamicHelp_MouseTool_" + Canvas.MouseTool));
 
       UpdateRecentDocumentsMenu();
       if (hasDocument) UpdateRouteAppearanceControls();

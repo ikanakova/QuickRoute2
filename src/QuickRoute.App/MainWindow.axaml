@@ -109,24 +109,44 @@
       </WrapPanel>
     </Border>
 
-    <Border DockPanel.Dock="Bottom" BorderBrush="#D0D0D0" BorderThickness="0,1,0,0">
-      <TextBlock x:Name="StatusText" Margin="6,3" TextTrimming="CharacterEllipsis" />
-    </Border>
-
     <Grid x:Name="ContentGrid" ColumnDefinitions="*,Auto,300" RowDefinitions="*,Auto,180">
       <Grid Grid.Row="0" Grid.Column="0" RowDefinitions="*,Auto">
         <ScrollViewer x:Name="MapScrollViewer" Grid.Row="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="#F0F0F0">
           <controls:MapCanvas x:Name="Canvas" HorizontalAlignment="Left" VerticalAlignment="Top" />
         </ScrollViewer>
         <Border Grid.Row="1" BorderBrush="#D0D0D0" BorderThickness="0,1,0,0">
-          <WrapPanel x:Name="MomentaneousInfoPanel" Margin="4,2" />
+          <DockPanel>
+            <TextBlock x:Name="MouseToolHelp" DockPanel.Dock="Right" Text="?" FontSize="11" FontWeight="SemiBold" Foreground="#808080"
+                       Margin="6,2" VerticalAlignment="Center" Background="Transparent" />
+            <WrapPanel x:Name="MomentaneousInfoPanel" Margin="2,1" />
+          </DockPanel>
         </Border>
       </Grid>
       <GridSplitter x:Name="RightSplitter" Grid.Row="0" Grid.Column="1" Width="5" ResizeDirection="Columns" />
       <Grid x:Name="RightPanel" Grid.Row="0" Grid.Column="2" RowDefinitions="Auto,Auto,*">
+        <Grid.Styles>
+          <Style Selector="ListBoxItem">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Padding" Value="6,3" />
+            <Setter Property="MinHeight" Value="0" />
+          </Style>
+          <Style Selector="DataGridColumnHeader">
+            <Setter Property="FontSize" Value="11" />
+            <Setter Property="Padding" Value="6,0,4,0" />
+            <Setter Property="MinHeight" Value="24" />
+          </Style>
+          <Style Selector="DataGridCell">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="MinHeight" Value="0" />
+          </Style>
+          <Style Selector="DataGridCell TextBlock">
+            <Setter Property="Margin" Value="6,0" />
+          </Style>
+        </Grid.Styles>
         <ListBox x:Name="SessionList" Grid.Row="0" MaxHeight="120" />
-        <TextBlock x:Name="LapsLabel" Grid.Row="1" Margin="4,4,4,2" FontWeight="SemiBold" />
-        <DataGrid x:Name="LapGrid" Grid.Row="2" IsReadOnly="True" AutoGenerateColumns="False" SelectionMode="Single"
+        <TextBlock x:Name="LapsLabel" Grid.Row="1" Margin="6,3,4,2" FontSize="12" FontWeight="SemiBold" />
+        <DataGrid x:Name="LapGrid" Grid.Row="2" IsReadOnly="True" AutoGenerateColumns="False" SelectionMode="Single" FontSize="12"
+                  RowHeight="24" ColumnHeaderHeight="26"
                   CanUserReorderColumns="False" CanUserResizeColumns="True" CanUserSortColumns="True" GridLinesVisibility="Horizontal" />
       </Grid>
       <GridSplitter x:Name="BottomSplitter" Grid.Row="1" Grid.ColumnSpan="3" Height="5" ResizeDirection="Rows" />

@@ -223,7 +223,7 @@ namespace QuickRoute.App
         RetrieveExternalPropertyDelegate dlg = new ExternalRoutePropertyRetriever(s.Settings).RetrieveExternalProperty;
         var property = Activator.CreateInstance(type, s, new RouteLocations(s.Route.FirstPL), dlg) as RouteProperty;
         if (property == null || !property.ContainsValue) continue;
-        var text = new TextBlock { Margin = new Avalonia.Thickness(6, 2), MinWidth = 60 };
+        var text = new TextBlock { Margin = new Avalonia.Thickness(6, 1), MinWidth = 60, FontSize = 12 };
         momentaneousInfoLabels.Add((type, text));
         MomentaneousInfoPanel.Children.Add(new Border
         {
